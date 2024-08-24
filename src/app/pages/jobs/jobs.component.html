@@ -77,9 +77,8 @@
       <div class="">
         <h1 class="colRightRoleTitle">{{ rightColData?.title }}</h1>
         <span class="">
-          {{ rightColData?.location }}, posted on-{{
-            rightColData?.datePosted
-          }}</span
+          {{ rightColData?.location }}, posted on -
+          {{ rightColData?.datePosted }}</span
         >
       </div>
       <div class="pt-4">
@@ -96,7 +95,7 @@
           </span>
           <span class="colRightJobType">{{ rightColData?.job_type }}</span>
         </div>
-        <div class="d-flex pt-2">
+        <div class="pt-2">
           <span>
             <!-- <img
               src="../../../assets/icons/checklist.svg"
@@ -108,8 +107,8 @@
             <i class="fa-solid fa-list-check colRightIcons"></i>
           </span>
           <!-- TOP 5 SKILLS ONLY -->
-          @for (items of rightColData?.skills; track $index) {
-          <span class="colRightJobType">{{ items }}</span>
+          @for (items of rightColData?.skills | slice:0:4; track $index) {
+          <p class="colRightJobType">{{ items }}</p>
           }
         </div>
       </div>
@@ -126,7 +125,8 @@
 
           <mat-divider></mat-divider>
           <div class="mt-4">
-            <p class="">Requirements</p>
+            <p class=""><b>Requirements</b></p>
+
             @for (items of rightColData?.requirements; track $index) {
 
             <ul>
@@ -137,26 +137,37 @@
             }
           </div>
         </div>
+
         <div class="">
-          <p class="">Responsibilities</p>
+          <p class=""><b>Responsibilities</b></p>
           @for(item of rightColData?.responsibilities ; track $index) {
           <ul>
             <li>
               <span>{{ item }}</span>
             </li>
           </ul>
+
           }
 
+          <div class="rightBenefits pt-4">
+            <p class=""><b>Skills</b></p>
+            @for(items of rightColData?.skills ; track $index){
+            <ul>
+              <li>{{ items }}</li>
+            </ul>
+            }
+          </div>
+
           <div class="">
-            <p class="">Salary:</p>
-            <span
-              >{{ rightColData?.salary.amount }}
-              {{ rightColData?.salary.currency }}</span
-            >
+            <p class=""><b>Salary</b></p>
+            <span>
+              {{ rightColData?.salary.currency }}
+              {{ rightColData?.salary.amount }}
+            </span>
           </div>
 
           <div class="rightBenefits pt-4">
-            <p class="">Benefits:</p>
+            <p class=""><b>Benefits</b></p>
             @for(item of rightColData?.benefits; track $index){
             <ul>
               <li>{{ item }}</li>
@@ -165,7 +176,7 @@
           </div>
 
           <div class="rightDescription">
-            <p class="">Description</p>
+            <p class=""><b>Description</b></p>
             {{ rightColData?.description }}
           </div>
         </div>
