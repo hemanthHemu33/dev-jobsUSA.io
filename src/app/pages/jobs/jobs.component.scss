@@ -1,0 +1,183 @@
+/* Add scroll bars to colBlock class individually */
+@import "../../../styles.scss";
+.colBlock {
+  overflow-y: auto; /* Enable vertical scroll */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  max-height: 100vh; /* Adjust the height as needed */
+  background: #f5f5f5;
+  padding: 1rem 1rem 8rem 1rem;
+}
+
+/* Optionally, you can style the scroll bar if needed */
+.colBlock::-webkit-scrollbar {
+  width: 10px;
+}
+
+.colBlock::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded scroll thumb */
+}
+
+.colBlock::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scroll thumb on hover */
+}
+
+/* Add scroll bars to colBlock class individually */
+.colBlockLeft {
+  overflow-y: auto; /* Enable vertical scroll */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  max-height: 100vh; /* Adjust the height as needed */
+  background: #f5f5f5;
+  padding: 1rem 0rem 8rem 0rem;
+}
+
+/* Optionally, you can style the scroll bar if needed */
+.colBlockLeft::-webkit-scrollbar {
+  width: 10px;
+}
+
+.colBlockLeft::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded scroll thumb */
+}
+
+.colBlockLeft::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scroll thumb on hover */
+}
+
+// ***************** jobContainer********
+.jobImg {
+  width: 50px;
+}
+.matCard {
+  //   margin-top: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  // background: #00b2cb;
+  cursor: pointer;
+  //   display: flex;
+  //   align-items: center;
+}
+.noDatamatCard {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 5%;
+}
+
+.matCardHighlight {
+  background: #ffffff;
+  border-left: 4px solid $rootBlue;
+}
+// .matCard:hover {
+//   background: #ffffff;
+//   // border-radius: 0.5rem;
+//   // padding: 0.05rem;
+// }
+.applyBtnLeft {
+  padding: 0.7rem 1rem;
+  width: 100px;
+  border-radius: 30px;
+  // background-color: #0071b7;
+  color: $rootBlue;
+  border: 1px solid $rootBlue;
+  outline: none;
+  // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  float: right;
+}
+.jobTitleLeft {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.jobTitleLeft:hover {
+  text-decoration: underline;
+  // color: #132569;
+  color: $rootRed;
+}
+.companyLocationLeft {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: rgb(54, 54, 54);
+}
+.companyNameLeft {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+// **************************************************
+.colRightHeader {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.rightColCompanyLogo {
+  width: 30px;
+}
+.colRightRoleTitle {
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 3rem;
+}
+// ************
+.ApplyButtonRight {
+  padding: 0.7rem 1rem;
+  width: 150px;
+  border-radius: 30px;
+  // background-color: #0071b7;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.shareIcon {
+  width: 28px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+.colRightIcons {
+  width: 20px;
+  font-size: 18px;
+}
+.colRightJobType {
+  padding-left: 20px;
+  font-size: 16px;
+  display: inline-block;
+}
+.colRightJobType::after {
+  content: ", ";
+}
+
+/* Remove the comma from the last item */
+.colRightJobType:last-child::after {
+  content: "";
+}
+// **********
+.jobDetailsContainer {
+  border: 1px solid rgb(195, 193, 193);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.rightColApplybtnContainer {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+  width: 100%;
+}
+.colRightEnd {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  // margin-top: 1rem;
+}

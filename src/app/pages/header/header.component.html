@@ -1,0 +1,21 @@
+<div class="compContainer rootBlue">
+  <div class="wraperContainer Root_containerVariable">
+    <div class="headeConatiner">
+      <span>
+        <!-- <img src="../../../assets/logo.png" alt="logo" class="logo" /> -->
+        <img src="assets/logo.png" alt="logo" class="logo" />
+      </span>
+      <div>
+        <input
+          type="text"
+          placeholder="Search for job"
+          class="searchInput"
+          (keyup)="onSearchEnter($event)"
+        />
+      </div>
+    </div>
+    <div class="rightgrid">
+      <i (click)="redirectToInstagram()" class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+</div>

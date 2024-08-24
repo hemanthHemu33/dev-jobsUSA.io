@@ -1,0 +1,32 @@
+.compContainer {
+  // background: #0a3161;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.wraperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headeConatiner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.searchInput {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  outline: none;
+}
+.logo {
+  width: 80px;
+}
+.fa-instagram {
+  font-size: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,183 @@
+<div class="compContainer Root_containerVariable">
+  <!-- <input
+    type="text"
+    placeholder="Type and enter"
+    class="searchInput"
+    (keyup)="onSearchEnter($event)"
+  /> -->
+  <div class="row mainContainer">
+    <!-- *******************************LEFT BLOCK*************************** -->
+    <div class="col-5 colBlockLeft">
+      @for (item of jobs; track item; let i = $index) {
+      <div
+        *ngIf="jobs.length"
+        class="matCard"
+        [ngClass]="{ matCardHighlight: matCardActive == i }"
+        (click)="rightColCardEvent(i)"
+      >
+        <!-- [class.active]="matCardActive == i" -->
+        <div class="row m-0">
+          <div class="col-2 p-0" (click)="getById(item)">
+            <img class="jobImg" [src]="item.logo" alt="" />
+          </div>
+          <div class="col-7 p-0" (click)="getById(item)">
+            <div class="">
+              <h3 class="jobTitleLeft">
+                {{ item?.title }}
+              </h3>
+              <p class="companyNameLeft">{{ item?.company }}</p>
+              <p class="companyLocationLeft">{{ item?.location }}</p>
+            </div>
+          </div>
+          <div class="col-3 p-0">
+            <button class="applyBtnLeft" (click)="applyClick(item)">
+              Apply
+            </button>
+          </div>
+        </div>
+      </div>
+
+      }
+      <div class="noDatamatCard" *ngIf="jobs.length == 0">
+        <span>No data found</span>
+      </div>
+    </div>
+    <!-- ****************** RIGHT BLOCK ***************** -->
+    <div class="col-7 colBlock">
+      <div class="row">
+        <div class="col-8 colRightHeader">
+          <span
+            ><img
+              class="rightColCompanyLogo"
+              [src]="rightColData?.logo"
+              alt="Img"
+              load
+            />
+          </span>
+          <h4 class="m-0">
+            {{ rightColData?.company }}
+          </h4>
+        </div>
+        <div class="col-4 colRightEnd">
+          <button
+            class="ApplyButtonRight rootBlue"
+            (click)="applyClick(rightColData)"
+          >
+            Apply
+          </button>
+          <!-- <img
+            class="shareIcon"
+            src="../../../assets/icons/icons8-share-48.svg"
+            alt="share"
+            loading="lazy"
+          /> -->
+          <!-- <i class="fa-solid fa-share-nodes shareIcon"></i> -->
+        </div>
+      </div>
+      <div class="">
+        <h1 class="colRightRoleTitle">{{ rightColData?.title }}</h1>
+        <span class="">
+          {{ rightColData?.location }}, posted on-{{
+            rightColData?.datePosted
+          }}</span
+        >
+      </div>
+      <div class="pt-4">
+        <div class="d-flex">
+          <span>
+            <!-- <img
+              src="../../../assets/icons/briefcase.svg"
+              alt="icon"
+              loading="lazy"
+              class="colRightIcons"
+            /> -->
+
+            <i class="fa-solid fa-briefcase colRightIcons"></i>
+          </span>
+          <span class="colRightJobType">{{ rightColData?.job_type }}</span>
+        </div>
+        <div class="d-flex pt-2">
+          <span>
+            <!-- <img
+              src="../../../assets/icons/checklist.svg"
+              alt="icon"
+              loading="lazy"
+              class="colRightIcons"
+          /> -->
+
+            <i class="fa-solid fa-list-check colRightIcons"></i>
+          </span>
+          <!-- TOP 5 SKILLS ONLY -->
+          @for (items of rightColData?.skills; track $index) {
+          <span class="colRightJobType">{{ items }}</span>
+          }
+        </div>
+      </div>
+      <!-- **********ABOUT JOB IN DETAIL*********** -->
+
+      <div class="jobDetailsContainer">
+        <div class="mt-2">
+          <h2 class="mb-2">About the job</h2>
+          <!-- ALL SKILLS -->
+          <!-- @for (items of rightColData.skills; track $index) {
+        <span>{{ items }}</span>
+        } -->
+          <!-- <div class="">Skills: Skills in details</div> -->
+
+          <mat-divider></mat-divider>
+          <div class="mt-4">
+            <p class="">Requirements</p>
+            @for (items of rightColData?.requirements; track $index) {
+
+            <ul>
+              <li>
+                <span>{{ items }}</span>
+              </li>
+            </ul>
+            }
+          </div>
+        </div>
+        <div class="">
+          <p class="">Responsibilities</p>
+          @for(item of rightColData?.responsibilities ; track $index) {
+          <ul>
+            <li>
+              <span>{{ item }}</span>
+            </li>
+          </ul>
+          }
+
+          <div class="">
+            <p class="">Salary:</p>
+            <span
+              >{{ rightColData?.salary.amount }}
+              {{ rightColData?.salary.currency }}</span
+            >
+          </div>
+
+          <div class="rightBenefits pt-4">
+            <p class="">Benefits:</p>
+            @for(item of rightColData?.benefits; track $index){
+            <ul>
+              <li>{{ item }}</li>
+            </ul>
+            }
+          </div>
+
+          <div class="rightDescription">
+            <p class="">Description</p>
+            {{ rightColData?.description }}
+          </div>
+        </div>
+      </div>
+      <div class="rightColApplybtnContainer">
+        <button
+          class="ApplyButtonRight rootBlue"
+          (click)="applyClick(rightColData)"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

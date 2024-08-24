@@ -1,0 +1,254 @@
+{
+  "jobs": [
+    {
+      "job_id": "1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Software Engineer",
+      "company": "Tech Innovators Inc.",
+      "location": "San Francisco, CA",
+      "job_type": "Full-time",
+      "skills": [
+        "Java",
+        "Python",
+        "C++",
+        "Web Development",
+        "Software Development"
+      ],
+      "datePosted": "2021-10-01",
+      "apply_link": "https://www.linkedin.com/jobs/search/?currentJobId=3984067376&distance=25.0&geoId=102713980&keywords=angular%20developer&origin=HISTORY",
+      "salary": {
+        "currency": "USD",
+        "amount": 120000
+      },
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "3+ years of experience in software development",
+        "Proficiency in Java, Python, and C++"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Develop and maintain web applications, collaborate with cross-functional teams, and ensure high performance and responsiveness of applications."
+    },
+    {
+      "job_id": "2",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Marketing Manager",
+      "company": "Creative Solutions Ltd.",
+      "location": "New York, NY",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 90000
+      },
+      "requirements": [
+        "Bachelor's degree in Marketing or related field",
+        "5+ years of experience in marketing management",
+        "Strong analytical and project management skills"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Develop marketing strategies, manage marketing campaigns, analyze market trends, and oversee the marketing team."
+    },
+    {
+      "job_id": "3",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Graphic Designer",
+      "company": "Design Studio Co.",
+      "location": "Remote",
+      "job_type": "Part-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 50000
+      },
+      "requirements": [
+        "Bachelor's degree in Graphic Design or related field",
+        "2+ years of experience in graphic design",
+        "Proficiency in Adobe Creative Suite"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Create visual concepts, develop graphics for websites and social media, and collaborate with the creative team to produce high-quality designs."
+    },
+    {
+      "job_id": "4",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Data Scientist",
+      "company": "Data Insights Corp.",
+      "location": "Boston, MA",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 115000
+      },
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "requirements": [
+        "Bachelor's degree in Data Science or related field",
+        "2+ years of experience in data analysis",
+        "Proficiency in Python and R"
+      ],
+      "description": "Analyze large sets of data to identify trends, build predictive models, and provide actionable insights for business decisions."
+    },
+    {
+      "job_id": "5",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Project Manager",
+      "company": "Efficient Projects Inc.",
+      "location": "Chicago, IL",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 95000
+      },
+      "requirements": [
+        "Bachelor's degree in Business Administration or related field",
+        "4+ years of experience in project management",
+        "PMP certification preferred"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Manage project timelines, coordinate with teams, ensure project goals are met on time and within budget, and communicate progress to stakeholders."
+    },
+    {
+      "job_id": "6",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "UX Designer",
+      "company": "User Experience Ltd.",
+      "location": "Remote",
+      "job_type": "Contract",
+      "salary": {
+        "currency": "USD",
+        "amount": 80000
+      },
+      "requirements": [
+        "Bachelor's degree in Design or related field",
+        "3+ years of experience in UX design",
+        "Proficiency in design tools such as Sketch, Figma, and Adobe XD"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Design user interfaces, create wireframes and prototypes, conduct user research, and work closely with developers to ensure a seamless user experience."
+    },
+    {
+      "job_id": "7",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "DevOps Engineer",
+      "company": "Cloud Solutions LLC",
+      "location": "Austin, TX",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 110000
+      },
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "3+ years of experience in DevOps",
+        "Experience with AWS, Docker, and Kubernetes"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Implement and manage CI/CD pipelines, automate infrastructure, and work closely with development teams to ensure smooth deployment and operation of applications."
+    },
+    {
+      "job_id": "8",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "HR Specialist",
+      "company": "People First Corp.",
+      "location": "Seattle, WA",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 70000
+      },
+      "requirements": [
+        "Bachelor's degree in Human Resources or related field",
+        "2+ years of experience in HR",
+        "Strong communication and organizational skills"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Handle recruitment, onboarding, employee relations, benefits administration, and ensure compliance with labor laws and company policies."
+    },
+    {
+      "job_id": "9",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Sales Manager",
+      "company": "Sales Solutions Inc.",
+      "location": "Los Angeles, CA",
+      "job_type": "Full-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 95000
+      },
+      "requirements": [
+        "Bachelor's degree in Business or related field",
+        "5+ years of experience in sales",
+        "Proven track record of meeting or exceeding sales targets"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Lead the sales team, develop sales strategies, manage client relationships, and achieve sales targets to drive company growth."
+    },
+    {
+      "job_id": "10",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
+      "title": "Customer Support Representative",
+      "company": "SupportHub LLC",
+      "location": "Remote",
+      "job_type": "Part-time",
+      "salary": {
+        "currency": "USD",
+        "amount": 45000
+      },
+
+      "requirements": [
+        "Bachelor's degree in Computer Science or related field",
+        "3+ years of experience in software development",
+        "Proficiency in Java, Python, and C++"
+      ],
+      "responsibilities": [
+        "Develop and maintain web applications",
+        "Collaborate with cross-functional teams",
+        "Ensure high performance and responsiveness of applications"
+      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
+      "description": "Provide support to customers via phone, email, and chat, resolve issues, and ensure customer satisfaction with timely and effective solutions."
+    }
+  ]
+}

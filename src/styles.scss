@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "~bootstrap/dist/css/bootstrap.css";
+// @import "~@fortawesome/fontawesome-free/css/all.css";
+html,
+body {
+  height: 100%;
+} /* Hide scroll bar on the entire page */
+body {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+// *********************
+/* Layouting the page to the center of the screen .Root_containerVariable */
+.Root_containerVariable {
+  width: min(85%, 2000px);
+
+  margin-inline: auto;
+}
+.rootBlue {
+  background: #0a3161;
+}
+$rootRed: #b31942;
+$rootBlue: #0a3161;
