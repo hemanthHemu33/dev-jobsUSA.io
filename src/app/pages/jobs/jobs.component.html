@@ -1,10 +1,8 @@
-<div class="compContainer Root_containerVariable">
-  <!-- <input
-    type="text"
-    placeholder="Type and enter"
-    class="searchInput"
-    (keyup)="onSearchEnter($event)"
-  /> -->
+<!-- THIS IS WEBSITE SECTION WILL HIDE AFTER THE SCREEN SIZE(innerWidth) DECREASED TO 750PX -->
+<div
+  class="compContainer Root_containerVariable"
+  *ngIf="innerWidth && innerWidth >= 750"
+>
   <div class="row mainContainer">
     <!-- *******************************LEFT BLOCK*************************** -->
     <div class="col-5 colBlockLeft">
@@ -17,7 +15,11 @@
       >
         <!-- [class.active]="matCardActive == i" -->
         <div class="row m-0">
-          <div class="col-2 p-0" (click)="getById(item)">
+          <div
+            *ngIf="innerWidth && innerWidth >= 900"
+            class="col-2 p-0"
+            (click)="getById(item)"
+          >
             <img class="jobImg" [src]="item.logo" alt="" />
           </div>
           <div class="col-7 p-0" (click)="getById(item)">
@@ -30,7 +32,10 @@
             </div>
           </div>
           <div class="col-3 p-0">
-            <button class="applyBtnLeft" (click)="applyClick(item)">
+            <button
+              class="applyBtnLeft"
+              (click)="applyClick(item); getById(item)"
+            >
               Apply
             </button>
           </div>
@@ -192,3 +197,51 @@
     </div>
   </div>
 </div>
+
+<!-- THIS IS THE MOBILE SECTION THIS WILL SHOW UP ON SCREEN SIZE AFTER 750PX -->
+<section class="mobileContainer" *ngIf="innerWidth && innerWidth <= 750">
+  <div class="Root_containerVariable">
+    <div class="row mainContainer">
+      <!-- *******************************LEFT BLOCK*************************** -->
+      <div class="col-12 colBlockLeft">
+        @for (item of jobs; track item; let i = $index) {
+        <div
+          *ngIf="jobs.length"
+          class="matCard"
+          [ngClass]="{ matCardHighlight: matCardActive == i }"
+          (click)="mobileCardJobById(item)"
+        >
+          <!-- [class.active]="matCardActive == i" -->
+          <div class="row m-0">
+            <div
+              class="col-2 p-0"
+              *ngIf="innerWidth > 380"
+              (click)="getById(item)"
+            >
+              <img class="jobImg" [src]="item.logo" alt="" />
+            </div>
+            <div class="col-7 p-0" (click)="getById(item)">
+              <div class="">
+                <h3 class="jobTitleLeft">
+                  {{ item?.title }}
+                </h3>
+                <p class="companyNameLeft">{{ item?.company }}</p>
+                <p class="companyLocationLeft">{{ item?.location }}</p>
+              </div>
+            </div>
+            <div class="col-3 p-0">
+              <button class="applyBtnLeft" (click)="applyClick(item)">
+                Apply
+              </button>
+            </div>
+          </div>
+        </div>
+
+        }
+        <div class="noDatamatCard" *ngIf="jobs.length == 0">
+          <span>No data found</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

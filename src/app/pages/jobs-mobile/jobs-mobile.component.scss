@@ -1,0 +1,119 @@
+.backArrow {
+  margin-top: 10px;
+  margin-bottom: 0.5rem;
+  z-index: 1;
+  cursor: pointer;
+}
+.headerBack {
+  background: #f5f5f5;
+}
+.colBlockContainer {
+  padding: 1rem 0.8rem 10rem 1rem;
+}
+/* Add scroll bars to colBlock class individually */
+.colBlockLeft {
+  overflow-y: auto; /* Enable vertical scroll */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  max-height: 100vh; /* Adjust the height as needed */
+  background: #f5f5f5;
+  //   padding: 1rem 0rem 8rem 0rem;
+}
+
+/* Optionally, you can style the scroll bar if needed */
+.colBlockLeft::-webkit-scrollbar {
+  width: 7px;
+}
+
+.colBlockLeft::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scroll thumb */
+  border-radius: 10px; /* Rounded scroll thumb */
+}
+
+.colBlockLeft::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scroll thumb on hover */
+}
+// ********************************
+
+// **************************************************
+.colRightHeader {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.rightColCompanyLogo {
+  width: 30px;
+}
+.colRightRoleTitle {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 1rem;
+  line-height: 3rem;
+}
+// ************
+.ApplyButtonRight {
+  padding: 0.7rem 1rem;
+  width: 150px;
+  border-radius: 30px;
+  // background-color: #0071b7;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.shareIcon {
+  width: 28px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+}
+.colRightIcons {
+  width: 20px;
+  font-size: 18px;
+}
+.colRightJobType {
+  padding-left: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+.colRightJobType::after {
+  content: ", ";
+}
+
+/* Remove the comma from the last item */
+.colRightJobType:last-child::after {
+  content: "";
+}
+// **********
+.jobDetailsContainer {
+  border: 1px solid rgb(195, 193, 193);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.rightColApplybtnContainer {
+  display: flex;
+  justify-content: end;
+  margin-top: 1rem;
+  width: 100%;
+}
+.colRightEnd {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  // margin-top: 1rem;
+}
+.rightBenefits {
+  ul {
+    margin-bottom: 0.5rem;
+  }
+}
+// *********************************MEDIA QUERIES*********************************
+@media (max-width: 400px) {
+  .ApplyButtonRight {
+    padding: 0.3rem 1rem;
+  }
+  .colRightRoleTitle {
+    font-size: 26px;
+    line-height: 1.8rem;
+  }
+}

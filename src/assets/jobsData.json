@@ -20,11 +20,11 @@
         "Microsoft Certified: Azure AI Fundamentals",
         "Python programming"
       ],
-      "datePosted": "06/21/2024",
+      "datePosted": "June 21, 2024",
       "apply_link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210495293/?utm_medium=jobshare",
       "salary": {
         "currency": "USD $",
-        "amount": "147,250.00-260,000.00"
+        "amount": "147,250 - 260,000"
       },
       "requirements": [
         "M.S. degree in Statistics, Engineering, Computer Science, Mathematics, Operations Research, or Economics",
@@ -37,19 +37,431 @@
         "Be proactive about changes in model performance, customer behavior, and the competitive landscape",
         "Coach and mentor junior team members and help develop their technical, business, and communication skills"
       ],
-      "benefits": [
-        "Base salary determined based on the role, experience, skill set, and location",
-        "Discretionary incentive compensation",
-        "Comprehensive health care coverage",
-        "On-site health and wellness centers",
-        "Retirement savings plan",
-        "Backup childcare",
-        "Tuition reimbursement",
-        "Mental health support",
-        "Financial coaching"
-      ],
+      "benefits": ["Health insurance", "401(k) matching", "Paid time off"],
       "description": "We offer a competitive total rewards package including base salary determined based on the role, experience, skill set, and location. For those in eligible roles, discretionary incentive compensation which may be awarded in recognition of individual achievements and contributions. We also offer a range of benefits and programs to meet employee needs, based on eligibility. These benefits include comprehensive health care coverage, on-site health and wellness centers, a retirement savings plan, backup childcare, tuition reimbursement, mental health support, financial coaching and more. Additional details about total compensation and benefits will be provided during the hiring process.",
-      "aboutus": "Chase is a leading financial services firm, helping nearly half of America’s households and small businesses achieve their financial goals through a broad range of financial products. Our mission is to create engaged, lifelong relationships and put our customers at the heart of everything we do. We also help small businesses, nonprofits and cities grow, delivering solutions to solve all their financial needs."
+      "aboutus": "Tech Innovators Inc. is a leading technology company that specializes in software development and web applications. We are committed to providing innovative solutions to our clients and creating a positive work environment for our employees."
+    },
+    {
+      "job_id": "2",
+      "logo": "https://mma.prnewswire.com/media/2070126/Gap_Inc_v2.jpg?w=200",
+      "title": "Senior Data Scientist - Customer Data",
+      "company": "Gap Inc.",
+      "location": "San Francisco, CA, US 94105",
+      "job_type": "Full-time",
+      "skills": [
+        "Causal Inference",
+        "Econometrics",
+        "Machine Learning (ML)",
+        "Deep Learning",
+        "Ensemble Methods",
+        "LLMs",
+        "SQL",
+        "Azure Databricks",
+        "Python",
+        "Causal Impact",
+        "Synthetic Control",
+        "Diff-of-Diff"
+      ],
+      "datePosted": "August 5, 2024",
+      "apply_link": "https://www.gapinc.com/en-us/jobs/w19/92/senior-data-scientist-customer-data-san-francisco",
+      "salary": {
+        "currency": "USD $",
+        "amount": "170,200 - 225,600"
+      },
+      "requirements": [
+        "MS/PhD in mathematics, statistics, data science, econometrics, operations research or similar.",
+        "Expert level experience as a data scientist in predictive solution development and revenue impact measurement.",
+        "Established experience working with customer level behavioral data, preferably with a multi-channel retailer.",
+        "Advanced proficiency using SQL for efficient manipulation of large datasets, Azure Databricks.",
+        "Demonstrated ability to research, evaluate and apply appropriate methodologies over a broad array of business interests, overseeing causal inference; Causal Impact, synthetic control, diff-of-diff.",
+        "Python experience directed towards statistical modeling, machine learning algorithms (regression and boosting trees, SVM and similarity methods, time series) and a track record for creating business impact with these methods, preferably in service of acquisition and retention goals.",
+        "Critical thinking, agile mindset, strong written and verbal communication skills exercised across all levels of business hierarchy, with a demonstrated appetite for relationship building.",
+        "Passion for retail, fashion, and consumer behavior, with a deep understanding of the digital commerce ecosystem, and industry trends."
+      ],
+      "responsibilities": [
+        "Create a comprehensive Causal ML framework to measure impact.",
+        "Develop approaches to measure cross-price elasticity, SKU demand transference, cannibalization, and other causal treatment outcomes.",
+        "Apply modern machine learning algorithms, including deep learning, ensemble methods, and LLMs, to analyze large-scale datasets containing customer interactions with product and platform attributes.",
+        "Guide audience targeting strategy across CRM, digital, App through customer lifecycle propensity modeling to acquire and retain.",
+        "Influence design and execution of multivariate experiments, KPI rationalization, establish measurement protocols with and without controlled setup, arbitrate over statistical and business significance.",
+        "Communicate complex analytic findings and insights effectively to stakeholders at all levels.",
+        "Partner closely with product management, Gap Brand ecommerce and marketing leads to understand business hypotheses, requirements, and opportunities to influence decisions, roadmaps.",
+        "Partner with Data Engineering, Data Governance, Platform and Transformation teams to ensure data consistency, accessibility and scalability and useability for analytic intent.",
+        "Stay abreast of emerging trends, best practices, and tools for acquiring external intelligence, leading the exploration and implementation of new analytics data sources or techniques.",
+        "Use audience appropriate visualizations to drive strategic adoption, tell a story, diagnose performance and identify opportunities."
+      ],
+      "benefits": [
+        "Merchandise discount for our brands: 50% off regular-priced merchandise at Old Navy, Gap, Banana Republic and Athleta, and 30% off at Outlet for all employees.",
+        "One of the most competitive Paid Time Off plans in the industry.",
+        "Employees can take up to five 'on the clock' hours each month to volunteer at a charity of their choice.",
+        "Extensive 401(k) plan with company matching for contributions up to four percent of an employee’s base pay.",
+        "Employee stock purchase plan.",
+        "Medical, dental, vision and life insurance."
+      ],
+      "description": "As a Senior Data Scientist for the Customer Data Science team at Gap Inc, you will play a pivotal role in leveraging advanced analytics and machine learning to drive growth, optimize customer experience, and enhance operational excellence across Gap Inc brands. You will focus on delivering a portfolio of predictive models and inferential decision assets while driving a customer-first mindset across business units. This role is based in our San Francisco hub office and reports to the Customer Data Science Director.",
+      "aboutus": "Gap Inc. is a global retailer that offers clothing, accessories, and personal care products for men, women, children, and babies. Our brands bridge the gaps we see in the world. We inspire the world to bring individuality to modern, responsibly made essentials. Our team is made up of thousands of people across the globe who take risks, think big, and do good for our customers, communities, and the planet."
+    },
+    {
+      "job_id": "3",
+      "logo": "https://nordstrom.wd5.myworkdayjobs.com/wday/cxs/nordstrom/nordstrom_careers/sidebarimage/ed17eb0c5ca10100b751bca2262d0000",
+      "title": "Data Analyst 3, Nordstrom Analytical Platform",
+      "company": "Nordstrom",
+      "location": "United States",
+      "job_type": "Full-time",
+      "skills": [
+        "Data Analysis",
+        "Hypothesis Testing",
+        "Dashboard Development",
+        "SQL (Amazon Redshift, Oracle, Teradata)",
+        "Statistical Algorithms",
+        "Machine Learning",
+        "Python",
+        "R",
+        "Data Visualization (R-Shiny, ggplot, plotly, matplotlib, Tableau, Data Studio)",
+        "Storytelling",
+        "Stakeholder Management",
+        "Data Engineering Collaboration"
+      ],
+      "datePosted": "August 21, 2024",
+      "apply_link": "https://nordstrom.wd5.myworkdayjobs.com/nordstrom_careers/job/United-States/Data-Analyst-3--Enterprise-Operations--Hybrid-_R-666561",
+      "salary": {
+        "currency": "USD $",
+        "amount": "89,000 - 181,500"
+      },
+      "requirements": [
+        "Bachelor’s degree in a quantitative field; advanced quantitative degree preferred.",
+        "5+ years of professional experience analyzing data, drawing conclusions, and making recommendations.",
+        "Strong coding skills in at least one statistical or programming language (R or Python preferred) to import, summarize, and analyze data.",
+        "3+ years of experience in extracting & manipulating large data sets from various relational databases using SQL (Amazon Redshift, Oracle, Teradata preferred).",
+        "Experience with statistical and machine learning algorithms to address a business question from analysis through insights delivery (e.g., regression, classification and/or clustering).",
+        "Strong proficiency with advanced graphics/visualization software/packages (e.g., R-Shiny, ggplot, plotly, matplotlib, Tableau, Data Studio).",
+        "Clear and effective written/verbal communication and strong interpersonal skills.",
+        "Ability to develop strong, synergistic relationships with a multitude of teams and personnel.",
+        "Strong problem-solving skills.",
+        "Ability to complete ambiguous projects independently.",
+        "Ability to prioritize tasks and manage time effectively."
+      ],
+      "responsibilities": [
+        "Partner with key stakeholders to define success and develop measurement frameworks.",
+        "Dive deep into complex business problems and provide insights on business vertical performance through hypothesis testing.",
+        "Deliver a suite of analytical products including analyses, dashboards, insights, and recommendations.",
+        "Present the results to stakeholders up to the executive level and guide them to make the best use of analytics in their domain.",
+        "Own the definition and implementation of new metrics.",
+        "Find opportunities to use data to develop new strategies and improve overall performance.",
+        "Deliver high-quality solutions and recommendations to a variety of problems both independently and through collaboration with team members and business partners to drive outcomes.",
+        "Collaborate and partner with Data Engineers in the team, Business, Product Management to achieve the desired results.",
+        "Bring data to life through storytelling in a clear and meaningful way to audiences with mixed levels of technical expertise.",
+        "Reconcile divergent demands from multiple stakeholders in a fast-paced work environment.",
+        "Mentor more junior team members on analytics, storytelling, and communication best practices.",
+        "Use advanced analytical and statistical practices to create thorough and actionable insights.",
+        "Collect data to analyze, execute and measure customer analysis, marketing campaigns, merchandise, and digital experience analysis.",
+        "Actively collaborate to apply learning to other channels/campaigns/products/business units.",
+        "Create views by joining multiple tables across domains and improve performance of views."
+      ],
+      "benefits": [
+        "Medical/Vision, Dental, Retirement and Paid Time Away",
+        "Life Insurance and Disability",
+        "Merchandise Discount",
+        "EAP Resources"
+      ],
+      "description": "The Data Analyst 3 role on the Enterprise Operations team at Nordstrom Analytical Platform (NAP) is responsible for collecting, analyzing, and presenting data to improve decision making and unlock Enterprise Insights. The primary customer of our data is the finance organization, and the role involves building dashboards, products, and providing analytics consulting in support of strategic business decisions.",
+      "aboutus": "Nordstrom is a leading fashion retailer offering clothing, shoes, and accessories for men, women, and children. We are committed to delivering the best possible shopping experience, helping our customers express their style—not just buy fashion. We’re proud to be an equal-opportunity employer committed to fostering a diverse, inclusive workforce."
+    },
+    {
+      "job_id": "4",
+      "logo": "https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_001.jpg",
+      "title": "Senior Software Engineer, Labs",
+      "company": "Toyota Connected",
+      "location": "Plano, Texas | Hybrid Option",
+      "job_type": "Full-time",
+      "skills": [
+        "Software Engineering",
+        "Rust",
+        "Go",
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "Multithreaded Programming",
+        "Concurrency Programming",
+        "Agile Methodologies",
+        "Mentoring",
+        "Problem-Solving",
+        "Systems Thinking",
+        "CI/CD",
+        "Embedded Systems",
+        "Microservices",
+        "AWS",
+        "GCP",
+        "Azure",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Automated Speech Recognition",
+        "NLP",
+        "Audio Products"
+      ],
+      "datePosted": "August 21, 2024",
+      "apply_link": "https://www.toyotaconnected.com/job?gh_jid=7531523002&did=4040990002",
+      "salary": {
+        "currency": "USD",
+        "amount": "Not Disclosed"
+      },
+      "requirements": [
+        "5+ years of software engineering experience",
+        "Experience writing clean, concise, tested, maintainable code in Rust, Go, Python, C, C++, C#, or Java",
+        "Hands-on experience applying current best practices and principles in software development",
+        "Experience in multithreaded and concurrency programming",
+        "Experience working in an Agile software engineering environment",
+        "Ability to learn and apply new technologies, programming practices, patterns, and methods",
+        "Experience mentoring, providing technical guidance, and training more junior team members",
+        "Advanced problem-solving, troubleshooting, and decision-making skills",
+        "Solutions-oriented with an ability to keep an open mind while finding agreeable solutions",
+        "Organized and detail-oriented",
+        "Ability to work independently and take ownership of tasks/assignments",
+        "Ability to apply systems thinking to understand interdependencies and design solutions that achieve results",
+        "Ability to develop healthy working relationships and collaborate with peers and leaders",
+        "Exhibits integrity and high standards in work quality",
+        "Excellent verbal and written communication skills",
+        "Experience effectively communicating complex technical information to stakeholders at all levels",
+        "Values diversity and differences amongst individuals in interactions"
+      ],
+      "preferred_qualifications": [
+        "Experience coding in Rust, C, or C++",
+        "Experience working with embedded systems",
+        "Experience with Bazel",
+        "Experience implementing microservices",
+        "Experience with CI/CD practices and containerization",
+        "Experience in AWS, GCP, or Azure Public Cloud",
+        "Experience working with Machine Learning, AI, automated speech recognition (ASR), or audio products",
+        "Bachelor’s Degree in Computer Science or equivalent experience"
+      ],
+      "responsibilities": [
+        "Design and develop software to create cutting edge solutions by writing maintainable, extensible, tested code, while complying with coding standards",
+        "Produce specifications and determine operational feasibility",
+        "Continuously integrate and deliver software components into a fully functional software system",
+        "Be hands-on and lead from the front in following best practices in development and CI/CD methodologies",
+        "Facilitate end to end user testing with customers",
+        "Troubleshoot, debug, and upgrade existing systems",
+        "Work closely with product owners to shape and deliver features to customers",
+        "Mentor, provide technical guidance, and train more junior team members"
+      ],
+      "benefits": [
+        "Excellent compensation and benefits package",
+        "Annual $2,500 Training Budget",
+        "Unlimited time off and flexibility for work-life balance",
+        "Home office stipend of $1,000",
+        "Four months of paid parental leave",
+        "Adoption Assistance of $5,000 for regular adoptions or $6,000 for special needs",
+        "401(k) with generous company match, fully vested day one",
+        "Toyota and Lexus vehicle discounts",
+        "Generous vehicle allowance for new and leased Toyota and Lexus vehicles",
+        "Annual Patent-a-thons and Hackathons",
+        "Annual Wellness Stipend of $1,000",
+        "Free catered lunches when working onsite",
+        "Two fully stocked Nespresso bars",
+        "No dress code",
+        "Free covered garage parking"
+      ],
+      "description": "Toyota Connected is seeking a Senior Software Engineer to join our Labs team in Plano, Texas. This role involves solving complex problems using cutting-edge technologies, Machine Learning, and NLP to transform the vehicle customer experience. As a Senior Software Engineer, you will design, develop, and deliver software components, lead best practices in development and CI/CD, mentor junior team members, and work closely with product owners to deliver features to customers.",
+      "aboutus": "Toyota Connected was established in 2016 to infuse the power of big data and cloud intelligence into all aspects of the mobility experience so that driving a Toyota or Lexus is more personal, intuitive, and safe. We create and enable technologies that delight, simplify, and connect the lives of those who use our products. Toyota Connected celebrates and is committed to a diverse and inclusive workplace that embraces all individuals."
+    },
+    {
+      "job_id": "5",
+      "logo": "https://c.smartrecruiters.com/sr-company-logo-prod-aws-dc5/62913a6c84a0d2068a683c44/huge?r=s3-eu-central-1&_1714488424997",
+      "title": "Analyst, Product & Revenue Analytics",
+      "company": "NBCUniversal",
+      "location": "Playa Vista Dr, Los Angeles, CA 90094, USA | Hybrid Option",
+      "job_type": "Full-time",
+      "skills": [
+        "Data Analysis",
+        "SQL",
+        "Tableau",
+        "Data Science",
+        "Data Engineering",
+        "Statistics",
+        "Product Analytics",
+        "A/B Testing",
+        "ETL",
+        "Dashboard Creation",
+        "KPI Tracking",
+        "Big Data",
+        "Communication",
+        "Presentation Skills"
+      ],
+      "datePosted": "August 23, 2024",
+      "apply_link": "https://jobs.smartrecruiters.com/NBCUniversal3/744000008715717-analyst-product-revenue-analytics",
+      "salary": {
+        "currency": "USD $",
+        "amount": "65,000 - 95,000"
+      },
+      "requirements": [
+        "BA/BS/MS from a quantitative field such as Engineering, Mathematics, Economics, or Statistics from a highly ranked program is preferred",
+        "1+ years of applied experience in Data, Analytics, or Data Science",
+        "Experience with SQL for querying and pivoting data",
+        "Experience with Tableau (or similar platform), building effective dashboards",
+        "Experience in, or working with, Data Engineering teams to source data for reporting and analytics",
+        "Strong interpersonal and presentation skills",
+        "Highly motivated, resourceful, and inquisitive self-starter with strong attention to detail",
+        "Expertise in clear written and verbal communication with both technical and non-technical audiences",
+        "Team-oriented individual who thrives in a collaborative environment, working effectively with peers and stakeholders",
+        "Basic understanding and interest in professional sports"
+      ],
+      "preferred_qualifications": [
+        "Experience with large-scale data sets",
+        "Experience in the media or entertainment industry",
+        "Knowledge of cloud platforms like AWS, GCP, or Azure",
+        "Advanced proficiency in SQL and Tableau",
+        "Experience with other analytics tools such as Python or R"
+      ],
+      "responsibilities": [
+        "Analyze complex data sets using SQL to develop actionable insights for stakeholders to drive strategy (incremental lift analysis, A/B testing, etc.)",
+        "Build and maintain standardized reporting for multiple groups, ensuring timely and accurate delivery (daily/weekly/monthly readouts)",
+        "Track product performance and provide insights (engagement, retention, etc.)",
+        "Create requirements for new data sources and ETLs for new dashboards as necessary",
+        "Track KPIs and ROI on business initiatives through deep-dive analysis",
+        "Apply statistics and product knowledge to analyze product experimentation",
+        "Partner closely with the Data Engineering team to provide technical support, define use cases, and give guidance for key engineering decisions",
+        "Play an important role in internal data governance – set goals, communicate roadmap, track progress, and QA tables and dashboards",
+        "Communicate effectively through presentations and syndicated reports"
+      ],
+      "benefits": [
+        "Medical, dental, and vision insurance",
+        "401(k) with company match",
+        "Paid leave",
+        "Tuition reimbursement",
+        "Variety of other discounts and perks"
+      ],
+      "description": "NBCUniversal is seeking a motivated Analyst, Product & Revenue Analytics to join our team in Los Angeles. This role involves driving product and user strategy through user-level analytics, advertising optimization, and performance reporting across NBCU Entertainment Apps. You will work hands-on with big data to deliver impactful data solutions and play a key role in product performance tracking, KPI analysis, and internal data governance.",
+      "aboutus": "NBCUniversal, a subsidiary of Comcast Corporation, creates and distributes world-class content across film, television, and streaming, bringing it to life through theme parks and consumer experiences. We are committed to fostering a diverse, equitable, and inclusive culture that reflects the evolving face of the world."
+    },
+    {
+      "job_id": "6",
+      "logo": "https://scontent.fvtz1-2.fna.fbcdn.net/v/t39.30808-1/352804455_208086512151509_4400925298732038693_n.jpg?stp=dst-jpg_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=eWWOn_-3AxUQ7kNvgE1CfaM&_nc_ht=scontent.fvtz1-2.fna&_nc_gid=ATohbd2az0FibJ3BOOzuobU&oh=00_AYBLwvEGk_DLORHyWx6xkaW15lYoKoWbVjASCL9emPE0ig&oe=66D11CDA",
+      "title": "Analyst/Sr Analyst, Digital Experimentation",
+      "company": "American Airlines",
+      "location": "DFW Headquarters Building 8 (DFW-SV08), Cities: DFW, USA",
+      "job_type": "Full-time",
+      "skills": [
+        "Data Analysis",
+        "Python",
+        "R",
+        "SQL",
+        "Digital Experimentation",
+        "Causal Inference",
+        "A/B Testing",
+        "Statistical Methods",
+        "Data Reporting",
+        "Stakeholder Communication",
+        "Experiment Design",
+        "Statistical Analysis",
+        "Communication",
+        "Problem-Solving"
+      ],
+      "datePosted": "August 22, 2024",
+      "apply_link": "https://jobs.aa.com/job/AnalystSr-Analyst%2C-Digital-Experimentation/74784-en_US/",
+      "salary": {
+        "currency": "USD $",
+        "amount": "Not specified"
+      },
+      "requirements": [
+        "Bachelor's degree in Statistics, Applied Math, Computer Science, Economics, Engineering, or related field",
+        "Proficiency in Python, R, or other relevant modern programming languages",
+        "Experience with digital experimentation and causal inference",
+        "Experience with SQL"
+      ],
+      "preferred_qualifications": [
+        "MS in Statistics, Applied Math, Computer Science, Economics, Engineering or related field",
+        "Experience with marketing technology tools including Adobe Analytics and Adobe Target",
+        "Experience with SAS"
+      ],
+      "responsibilities": [
+        "Establish best practices for measurement of experiments using statistical methods",
+        "Help others design, analyze, and communicate the results of their experiments",
+        "Design, execute, and analyze A/B tests",
+        "Build a culture of experimentation by running successful tests and building partnerships with key stakeholders",
+        "Identify opportunities for analysis and testing on the site that increase conversion or drive revenue improvement",
+        "Work with stakeholders to understand business needs and develop viable solutions",
+        "Ensure the experimentation program is scalable, repeatable, effective, and meets stakeholder expectations",
+        "Work with vendors and internal analytics implementation team to develop reporting strategies",
+        "Collaborate with developers to set up testing campaigns",
+        "Define best practice approaches for a successful experimentation program"
+      ],
+      "benefits": [
+        "Travel Perks: Reach 365 destinations on more than 6,800 daily flights across our global network.",
+        "Health Benefits: Access to health, dental, prescription, and vision benefits from day one.",
+        "Wellness Programs: Tools, resources, and support for personal well-being.",
+        "401(k) Program: Employer contributions available after one year, depending on the workgroup."
+      ],
+      "description": "Join American Airlines as an Analyst/Sr Analyst, Digital Experimentation and help drive innovation within our Customer Experience Group. This role involves establishing best practices for digital experimentation, executing A/B tests, and promoting a culture of experimentation across the organization. You will work closely with stakeholders to identify testing opportunities and communicate data-driven recommendations to improve site conversion and revenue.",
+      "aboutus": "American Airlines is dedicated to creating an inclusive work environment and is committed to connecting team members with our customers, communities, and shareholders. With more than 20 Employee Business Resource Groups, we strive to help our team members reach their full potential."
+    },
+    {
+      "job_id": "3319",
+      "logo": "https://www.metlifecareers.com/portal/37/images/logo.png",
+      "title": "Responsible Use of AI Data Scientist",
+      "company": "MetLife",
+      "location": "Cary, North Carolina | New York, New York | Whippany, New Jersey, United States",
+      "job_type": "Full-time",
+      "skills": [
+        "Quantitative Analysis",
+        "Predictive Modeling",
+        "Data Science",
+        "Responsible AI",
+        "Bias Mitigation",
+        "Fairness",
+        "Explainability in AI",
+        "AI Ethics",
+        "Policy Development",
+        "Stakeholder Engagement",
+        "Cross-disciplinary Collaboration",
+        "Communication",
+        "Governance",
+        "Ethical AI Implementation"
+      ],
+      "datePosted": "August 5, 2024",
+      "apply_link": "https://www.metlifecareers.com/en_US/ml/JobDetail/Responsible-Use-of-AI-Data-Scientist/3319",
+      "salary": {
+        "currency": "USD $",
+        "amount": "108,000 - 132,400"
+      },
+      "requirements": [
+        "Master’s degree in Statistics, Computer Science, Mathematics, Economics, or a related quantitative field",
+        "Strong foundation in quantitative analysis with an emphasis on predictive modeling and data science principles",
+        "3 - 5 years’ experience working in a related field with demonstrated success"
+      ],
+      "preferred_qualifications": [
+        "PhD in a quantitative discipline",
+        "Extensive knowledge of bias, fairness, and explainability in AI systems",
+        "Experience in conveying complex AI concepts effectively to diverse audiences",
+        "Proven track record of effective communication and collaboration with technical teams",
+        "Experience in facilitating change and fostering an understanding of ethical AI practices within a large global organization"
+      ],
+      "responsibilities": [
+        "Engage with stakeholders to identify and analyze potential risks associated with AI technologies, including generative AI",
+        "Convert Responsible AI Standards into practical Ethical AI controls and implementation practices that are scalable",
+        "Formulate and revise policies and guidelines for AI use case development",
+        "Stay informed of industry-wide insights and best practices in responsible AI policy and ethics",
+        "Develop and execute policies and methodologies to address potential harms from generative AI",
+        "Foster cross-disciplinary partnerships to develop new tools and methods to mitigate AI risks",
+        "Coordinate with community members within the responsible AI field to assimilate best practices",
+        "Lead discussions and training sessions on predictive modeling, bias mitigation, fairness, and explainability in AI",
+        "Review and evaluate AI use cases for adherence to company policies and ethical standards",
+        "Collaborate with stakeholders to develop company-wide guidelines and best practices for responsible AI",
+        "Advocate for continuous improvement in the use and understanding of AI technologies"
+      ],
+      "benefits": [
+        "Comprehensive health plan including medical, prescription drug, vision, and dental insurance",
+        "No-cost short- and long-term disability insurance",
+        "Company-paid life insurance and legal services",
+        "Retirement pension funded entirely by MetLife",
+        "401(k) with employer matching",
+        "Group discounts on voluntary insurance products",
+        "Employee Assistance Program (EAP) and digital mental health programs",
+        "Parental leave, volunteer time off, and tuition assistance"
+      ],
+      "description": "The Responsible Use of AI Data Scientist at MetLife will work on implementing responsible AI practices across the enterprise. This role involves engaging with stakeholders, developing ethical AI controls, and leading efforts in bias mitigation and fairness within AI systems. The successful candidate will have strong quantitative analysis skills and experience in AI ethics.",
+      "aboutus": "MetLife is a leading global financial services company, recognized on Fortune's list of the 'World's Most Admired Companies'. With operations in over 40 markets, we are committed to fostering an inclusive culture and transforming the future of financial services. Join us at MetLife where it's #AllTogetherPossible."
     }
   ]
 }

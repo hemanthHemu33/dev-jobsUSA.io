@@ -1,0 +1,157 @@
+<section class="">
+  <section class="headerBack">
+    <div class="Root_containerVariable">
+      <i class="fa-solid fa-arrow-left backArrow" (click)="back()"></i>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+  <section class="Root_containerVariable colBlockLeft">
+    <div class="colBlockContainer">
+      <div class="row">
+        <div class="col-8 colRightHeader">
+          <span
+            ><img
+              class="rightColCompanyLogo"
+              [src]="rightColData?.logo"
+              alt="Img"
+              load
+            />
+          </span>
+          <h4 class="m-0">
+            {{ rightColData?.company }}
+          </h4>
+        </div>
+        <div class="col-4 colRightEnd">
+          <button
+            class="ApplyButtonRight rootBlue"
+            (click)="applyClick(rightColData)"
+          >
+            Apply
+          </button>
+          <!-- <img
+              class="shareIcon"
+              src="../../../assets/icons/icons8-share-48.svg"
+              alt="share"
+              loading="lazy"
+            /> -->
+          <!-- <i class="fa-solid fa-share-nodes shareIcon"></i> -->
+        </div>
+      </div>
+      <div class="">
+        <h1 class="colRightRoleTitle">{{ rightColData?.title }}</h1>
+        <span class="">
+          {{ rightColData?.location }}, posted on -
+          {{ rightColData?.datePosted }}</span
+        >
+      </div>
+      <div class="pt-4">
+        <div class="d-flex">
+          <span>
+            <!-- <img
+                src="../../../assets/icons/briefcase.svg"
+                alt="icon"
+                loading="lazy"
+                class="colRightIcons"
+              /> -->
+
+            <i class="fa-solid fa-briefcase colRightIcons"></i>
+          </span>
+          <span class="colRightJobType">{{ rightColData?.job_type }}</span>
+        </div>
+        <div class="pt-2">
+          <span>
+            <!-- <img
+                src="../../../assets/icons/checklist.svg"
+                alt="icon"
+                loading="lazy"
+                class="colRightIcons"
+            /> -->
+
+            <i class="fa-solid fa-list-check colRightIcons"></i>
+          </span>
+          <!-- TOP 5 SKILLS ONLY -->
+          @for (items of rightColData?.skills | slice:0:4; track $index) {
+          <p class="colRightJobType">{{ items }}</p>
+          }
+        </div>
+      </div>
+      <!-- **********ABOUT JOB IN DETAIL*********** -->
+
+      <div class="jobDetailsContainer">
+        <div class="mt-2">
+          <h2 class="mb-2">About the job</h2>
+          <!-- ALL SKILLS -->
+          <!-- @for (items of rightColData.skills; track $index) {
+          <span>{{ items }}</span>
+          } -->
+          <!-- <div class="">Skills: Skills in details</div> -->
+
+          <mat-divider></mat-divider>
+          <div class="mt-4">
+            <p class=""><b>Requirements</b></p>
+
+            @for (items of rightColData?.requirements; track $index) {
+
+            <ul>
+              <li>
+                <span>{{ items }}</span>
+              </li>
+            </ul>
+            }
+          </div>
+        </div>
+
+        <div class="">
+          <p class=""><b>Responsibilities</b></p>
+          @for(item of rightColData?.responsibilities ; track $index) {
+          <ul>
+            <li>
+              <span>{{ item }}</span>
+            </li>
+          </ul>
+
+          }
+
+          <div class="rightBenefits pt-4">
+            <p class=""><b>Skills</b></p>
+            @for(items of rightColData?.skills ; track $index){
+            <ul>
+              <li>{{ items }}</li>
+            </ul>
+            }
+          </div>
+
+          <div class="">
+            <p class=""><b>Salary</b></p>
+            <span>
+              {{ rightColData?.salary.currency }}
+              {{ rightColData?.salary.amount }}
+            </span>
+          </div>
+
+          <div class="rightBenefits pt-4">
+            <p class=""><b>Benefits</b></p>
+            @for(item of rightColData?.benefits; track $index){
+            <ul>
+              <li>{{ item }}</li>
+            </ul>
+            }
+          </div>
+
+          <div class="rightDescription">
+            <p class=""><b>Description</b></p>
+            {{ rightColData?.description }}
+          </div>
+        </div>
+      </div>
+      <div class="rightColApplybtnContainer">
+        <button
+          class="ApplyButtonRight rootBlue"
+          (click)="applyClick(rightColData)"
+        >
+          Apply
+        </button>
+      </div>
+    </div>
+  </section>
+</section>

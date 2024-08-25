@@ -11,9 +11,10 @@ import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MatDividerModule } from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { JobsMobileComponent } from './pages/jobs-mobile/jobs-mobile.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, JobsComponent],
+  declarations: [AppComponent, HeaderComponent, JobsComponent, JobsMobileComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
