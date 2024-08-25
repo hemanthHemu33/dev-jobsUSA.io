@@ -10,7 +10,10 @@
           type="text"
           placeholder="Search for job"
           class="searchInput"
-          (input)="onSearchEnter($event)"
+          autocomplete="off"
+          autocorrect="off"
+          (change)="onSearchEnter($event)"
+          (onkeyup)="onSearchEnter($event)"
         />
       </div>
     </div>

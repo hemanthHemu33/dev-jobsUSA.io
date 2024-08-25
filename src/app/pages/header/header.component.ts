@@ -7,18 +7,13 @@ import { ServerService } from '../../server.service';
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  onSearchEnter(e: any) {
-    console.log('search', e.target.value);
-    this.sharedService.triggerFunctionCall(e);
-  }
-
   constructor(private sharedService: ServerService) {}
 
   redirectToInstagram() {
     window.open('https://www.instagram.com/job_posters_usa/', '_blank');
   }
-
-  // callFunctionInOtherComponent() {
-
-  // }
+  onSearchEnter(e: any) {
+    console.log('search', e.target.value);
+    this.sharedService.triggerFunctionCall(e);
+  }
 }
