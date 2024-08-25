@@ -12,6 +12,7 @@ export class ServerService {
   callFunction$ = this.callFunctionSource.asObservable();
 
   triggerFunctionCall(e: any): Observable<any> {
+    console.log(e);
     this.callFunctionSource.next(e);
     return this.callFunction$;
   }

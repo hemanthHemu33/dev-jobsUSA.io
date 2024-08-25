@@ -33,7 +33,6 @@ export class JobsComponent implements OnInit {
 
   ngOnInit(): void {
     this.FetchJobsData();
-
     this.server.callFunction$.subscribe((e: any) => {
       this.onSearchEnter(e);
     });
@@ -75,11 +74,13 @@ export class JobsComponent implements OnInit {
     // console.log(e, 'search value');
     let searchValue = e;
     if (searchValue) {
+      console.log('searchValue', searchValue);
       this.jobs = this.jobs.filter((item: any) => {
         return item.title.toLowerCase().includes(searchValue);
       });
     } else {
       this.FetchJobsData();
+      console.log('no search value');
     }
 
     // console.log(this.jobs);
