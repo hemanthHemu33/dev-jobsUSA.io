@@ -12,9 +12,7 @@
           class="searchInput"
           autocomplete="off"
           autocorrect="off"
-          (keyup)="onSearchEnter($event)"
-          (onkeyup)="onSearchEnter($event)"
-          (keypress)="onSearchEnter($event)"
+          [formControl]="queryField"
         />
       </div>
     </div>

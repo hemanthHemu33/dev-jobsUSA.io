@@ -73,7 +73,7 @@ export class JobsComponent implements OnInit {
 
   onSearchEnter(e: any) {
     // console.log(e, 'search value');
-    let searchValue = e.target.value;
+    let searchValue = e;
     if (searchValue) {
       this.jobs = this.jobs.filter((item: any) => {
         return item.title.toLowerCase().includes(searchValue);

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Subject } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -11,8 +11,8 @@ export class ServerService {
 
   callFunction$ = this.callFunctionSource.asObservable();
 
-  triggerFunctionCall(e: any) {
-    console.log(e, 'serverService hit');
+  triggerFunctionCall(e: any): Observable<any> {
     this.callFunctionSource.next(e);
+    return this.callFunction$;
   }
 }

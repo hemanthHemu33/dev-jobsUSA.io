@@ -12,9 +12,15 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { MatDividerModule } from '@angular/material/divider';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { JobsMobileComponent } from './pages/jobs-mobile/jobs-mobile.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, JobsComponent, JobsMobileComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    JobsComponent,
+    JobsMobileComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -23,6 +29,7 @@ import { JobsMobileComponent } from './pages/jobs-mobile/jobs-mobile.component';
     HttpClientModule,
     MatDividerModule,
     FontAwesomeModule,
+    ReactiveFormsModule,
   ],
   exports: [MatButtonModule, MatCardModule],
 
