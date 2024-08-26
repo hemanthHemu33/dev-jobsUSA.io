@@ -203,3 +203,12 @@
   padding-right: 0.5rem;
   // border: 2px solid red;
 }
+
+// *********************************MEDIA QUERIES*********************************
+@media (max-width: 500px) {
+  .applyBtnLeft {
+    width: 70px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
