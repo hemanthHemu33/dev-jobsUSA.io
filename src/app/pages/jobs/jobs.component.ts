@@ -55,6 +55,7 @@ export class JobsComponent implements OnInit {
       );
 
       this.getById({ job_id: this.jobs[0].job_id });
+      this.cdr.detectChanges();
     });
   }
 
@@ -63,6 +64,7 @@ export class JobsComponent implements OnInit {
     this.jobsServer.getJobById(e.job_id).subscribe((data: any) => {
       // console.log(data);
       this.rightColData = data;
+      this.cdr.detectChanges();
     });
   }
 
@@ -70,6 +72,7 @@ export class JobsComponent implements OnInit {
     // console.log(e);
     // this.router.navigate(['/e.apply_link']);
     window.open(`${e.apply_link}`, '_blank');
+    this.cdr.detectChanges();
   }
 
   // *****************
