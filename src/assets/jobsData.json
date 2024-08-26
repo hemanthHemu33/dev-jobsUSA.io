@@ -462,6 +462,52 @@
       ],
       "description": "The Responsible Use of AI Data Scientist at MetLife will work on implementing responsible AI practices across the enterprise. This role involves engaging with stakeholders, developing ethical AI controls, and leading efforts in bias mitigation and fairness within AI systems. The successful candidate will have strong quantitative analysis skills and experience in AI ethics.",
       "aboutus": "MetLife is a leading global financial services company, recognized on Fortune's list of the 'World's Most Admired Companies'. With operations in over 40 markets, we are committed to fostering an inclusive culture and transforming the future of financial services. Join us at MetLife where it's #AllTogetherPossible."
+    },
+    {
+      "job_id": "234",
+      "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFM-CkuJdVwQA/company-logo_200_200/company-logo_200_200/0/1630547572295/garnerhealth_logo?e=1732752000&v=beta&t=XVy9Ups56BD-SE-yvNf73onTidimCreWjQfDKBLklc0",
+      "title": "Senior Software Engineer (TypeScript)",
+      "company": "Garner Health",
+      "location": "Remote",
+      "job_type": "Full-time",
+      "skills": [
+        "TypeScript",
+        "React",
+        "NodeJS",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "ElasticSearch",
+        "Kubernetes",
+        "Istio",
+        "NATS",
+        "Terraform",
+        "Agile Methodologies",
+        "Secure Coding"
+      ],
+      "datePosted": "August 26, 2024",
+      "apply_link": "https://job-boards.greenhouse.io/garnerhealth/jobs/5059690004",
+      "salary": {
+        "currency": "USD $",
+        "amount": "150,000 - 195,000"
+      },
+      "requirements": [
+        "4+ years hands-on work delivering full-stack software",
+        "Expertise in TypeScript (preferred) or modern JavaScript",
+        "Familiarity with React, NodeJS, Docker, and a major cloud provider",
+        "Experience with one or more database systems, especially PostgreSQL or ElasticSearch",
+        "Experience working in a team using agile methodologies and fluency with the agile toolkit"
+      ],
+      "preferred_qualifications": [],
+      "responsibilities": [
+        "Design, build and launch new features and improve the overall quality of the Garner app",
+        "Collaborate across disciplines to understand our users and iterate on new ideas",
+        "Protect users\u2019 privacy and security through secure coding practices",
+        "Support the Garner app in production"
+      ],
+      "benefits": ["Equity incentive", "Competitive benefits plans"],
+      "description": "Garner Health is looking for a Senior Software Engineer to join the team and help revolutionize how people find top doctors in their area and get their medical claims reimbursed promptly. This role involves working closely with a talented product and design team, staying up-to-date with the latest technologies, and contributing to a fast-paced, innovative environment.",
+      "aboutus": "Garner's mission is to transform the healthcare economy, delivering high quality and affordable care for all. By helping employers restructure their healthcare benefit to provide clear incentives and data-driven insights, we direct employees to higher quality and lower cost healthcare providers."
     }
   ]
 }
