@@ -508,6 +508,82 @@
       "benefits": ["Equity incentive", "Competitive benefits plans"],
       "description": "Garner Health is looking for a Senior Software Engineer to join the team and help revolutionize how people find top doctors in their area and get their medical claims reimbursed promptly. This role involves working closely with a talented product and design team, staying up-to-date with the latest technologies, and contributing to a fast-paced, innovative environment.",
       "aboutus": "Garner's mission is to transform the healthcare economy, delivering high quality and affordable care for all. By helping employers restructure their healthcare benefit to provide clear incentives and data-driven insights, we direct employees to higher quality and lower cost healthcare providers."
-    }
+    },
+    {
+    "job_id": "5345",
+    "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHfNd0AiMZv2A/company-logo_200_200/company-logo_200_200/0/1631353173223?e=1732752000&v=beta&t=2mCIMEFHo5orFP5qdvN2RsaQPfeq0d1pytyIWgsh8Ps",
+    "title": "Front-End Developer (Remote)",
+    "company": "WebstaurantStore",
+    "location": "Remote/Lititz, PA",
+    "job_type": "Full-time",
+    "skills": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "Frontend Build Tools",
+        "UI/UX Collaboration",
+        "Problem Solving",
+        "Analytical Skills",
+        "Communication"
+    ],
+    "datePosted": "August 26, 2024",
+    "apply_link": "https://www.clarkassociatesinc.biz/careerdetail?id=90160&utm_medium=jobboard&utm_source=linkedin",
+    "salary": {
+        "currency": "USD $",
+        "amount": "-"
+    },
+    "requirements": [
+        "2+ years of experience in front-end development",
+        "Advanced proficiency in React and its principles",
+        "Strong proficiency in JavaScript, TypeScript, CSS, HTML, and modern frontend build tools",
+        "Excellent problem solving and analytical skills",
+        "Demonstrated capability in crafting pixel-perfect UIs",
+        "Ability to work closely with UX/UI designers, backend engineers, product managers, and other stakeholders",
+        "Demonstrated ability to make technical decisions balancing immediate needs and future considerations",
+        "Motivation to share knowledge and expertise with team members",
+        "Ability to contribute to the continuous improvement of team processes, coding standards, and development practices",
+        "Excellent communication skills, both written and verbal"
+    ],
+    "preferred_qualifications": [
+        "Experience in performance optimization using tools and practices",
+        "Proven track record of architecting and implementing scalable front-end systems",
+        "Experience with automated end-to-end testing",
+        "Outstanding mentorship skills"
+    ],
+    "responsibilities": [
+        "Design and build high-quality software with a focus on user impact",
+        "Collaborate with UX/UI designers, backend engineers, product managers, and other stakeholders",
+        "Ensure secure and efficient front-end development",
+        "Contribute to team processes, coding standards, and development practices"
+    ],
+    "benefits": [
+        "Medical",
+        "Vision",
+        "Dental",
+        "PTO",
+        "Paid Maternity Leave",
+        "Paid Parental Leave",
+        "Life Insurance",
+        "Disability",
+        "Dependent Care FSA",
+        "401(k) matching",
+        "Employee Assistance Program",
+        "Wellness Incentives",
+        "Company Discounts",
+        "AT&T & Verizon Discount",
+        "Bonus Opportunities"
+    ],
+    "description": (
+        "WebstaurantStore is looking for an experienced Front-End Developer with expertise in React, HTML, CSS, and TypeScript. ",
+        "The candidate will be responsible for creating high-quality software that has a direct positive impact on users. ",
+        "This role involves collaborating with UX/UI designers, backend engineers, and product managers to deliver pixel-perfect UIs and scalable front-end systems."
+    ),
+    "aboutus": (
+        "WebstaurantStore is an online supply company helping restaurants and businesses build themselves from the ground up. ",
+        "We sell everything from restaurant equipment, frozen lobster, shoes, napkins, and cutlery."
+    )
+}
   ]
 }
