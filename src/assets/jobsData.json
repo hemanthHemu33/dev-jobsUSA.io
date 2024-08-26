@@ -575,15 +575,15 @@
         "AT&T & Verizon Discount",
         "Bonus Opportunities"
     ],
-    "description": (
+    "description": [
         "WebstaurantStore is looking for an experienced Front-End Developer with expertise in React, HTML, CSS, and TypeScript. ",
         "The candidate will be responsible for creating high-quality software that has a direct positive impact on users. ",
         "This role involves collaborating with UX/UI designers, backend engineers, and product managers to deliver pixel-perfect UIs and scalable front-end systems."
-    ),
-    "aboutus": (
+    ],
+    "aboutus": [
         "WebstaurantStore is an online supply company helping restaurants and businesses build themselves from the ground up. ",
         "We sell everything from restaurant equipment, frozen lobster, shoes, napkins, and cutlery."
-    )
+    ]
 }
   ]
 }
