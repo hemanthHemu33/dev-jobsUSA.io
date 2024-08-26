@@ -1,4 +1,10 @@
-import { Component, HostListener, OnInit } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  ChangeDetectorRef,
+  Component,
+  HostListener,
+  OnInit,
+} from '@angular/core';
 
 import { JobsSserviceService } from './jobs-sservice.service';
 import { Router } from '@angular/router';
@@ -9,6 +15,7 @@ import { ServerService } from '../../server.service';
   selector: 'app-jobs',
   templateUrl: './jobs.component.html',
   styleUrl: './jobs.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class JobsComponent implements OnInit {
   innerWidth: number | undefined;
@@ -26,7 +33,8 @@ export class JobsComponent implements OnInit {
   constructor(
     private jobsServer: JobsSserviceService,
     private router: Router,
-    private server: ServerService
+    private server: ServerService,
+    private cdr: ChangeDetectorRef
   ) {
     this.innerWidth = window.innerWidth;
   }
@@ -71,21 +79,22 @@ export class JobsComponent implements OnInit {
   }
 
   onSearchEnter(e: any) {
-    // console.log(e, 'search value');
-    let searchValue = e;
+    let searchValue = e?.trim().toLowerCase();
+    console.log('Search Value:', searchValue);
+
     if (searchValue) {
-      console.log('searchValue', searchValue);
-      console.log(this.jobs, 'jobs');
       this.jobs = this.jobs.filter((item: any) => {
-        return item.title.toLowerCase().includes(searchValue);
+        const title = item.title?.toLowerCase();
+        return title.includes(searchValue);
       });
+      console.log('Filtered Jobs:', this.jobs);
     } else {
       this.FetchJobsData();
-      console.log('no search value');
+      console.log('No search value, fetching all jobs.');
     }
-
-    // console.log(this.jobs);
+    this.cdr.detectChanges();
   }
+
   // *******************************MOBILE********************************
   mobileCardJobById(e: any) {
     this.router.navigate(['jobs/jobsMobile'], {
