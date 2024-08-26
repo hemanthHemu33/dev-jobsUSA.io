@@ -19,6 +19,7 @@ import { ServerService } from '../../server.service';
 })
 export class JobsComponent implements OnInit {
   innerWidth: number | undefined;
+  originalJobs: any[] = [];
   // private subscription: Subscription;
 
   @HostListener('window:resize', ['$event'])
@@ -53,6 +54,7 @@ export class JobsComponent implements OnInit {
         (a, b) =>
           new Date(b.datePosted).getTime() - new Date(a.datePosted).getTime()
       );
+      this.originalJobs = [...data.jobs];
 
       this.getById({ job_id: this.jobs[0].job_id });
       this.cdr.detectChanges();
@@ -86,18 +88,17 @@ export class JobsComponent implements OnInit {
     console.log('Search Value:', searchValue);
 
     if (searchValue) {
-      this.jobs = this.jobs.filter((item: any) => {
+      this.jobs = this.originalJobs.filter((item: any) => {
         const title = item.title?.toLowerCase();
         return title.includes(searchValue);
       });
       console.log('Filtered Jobs:', this.jobs);
     } else {
-      this.FetchJobsData();
+      this.jobs = [...this.originalJobs]; // Reset to original job list
       console.log('No search value, fetching all jobs.');
     }
     this.cdr.detectChanges();
   }
-
   // *******************************MOBILE********************************
   mobileCardJobById(e: any) {
     this.router.navigate(['jobs/jobsMobile'], {
