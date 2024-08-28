@@ -571,6 +571,112 @@
       ],
       "description": "Prudential is hiring a Business Analyst for their Sourcing & Procurement team. This role focuses on quality assurance, reporting, and supporting system enhancements within the Finance Department. Key tasks include monitoring AP operations, handling escalations, and collaborating with various business groups.",
       "aboutus": "Prudential is a multinational financial services leader focused on helping customers grow and protect their wealth. The company offers a variety of products and services including life insurance, annuities, retirement services, mutual funds, asset management, and real estate services. Prudential is committed to empowering employees and providing opportunities for career growth and development."
+    },
+    {
+      "job_id": "MS-123456",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQE88xCsONDULQ/company-logo_200_200/company-logo_200_200/0/1630652622688/microsoft_logo?e=1732752000&v=beta&t=TngUwwbAJzl_gMJb9647uliFG0Z0uWFggQJUOZwOqyw",
+      "title": "Software Engineer - Fullstack",
+      "company": "Microsoft",
+      "location": "Multiple Locations, USA (Up to 100% Remote)",
+      "job_type": "Full-time",
+      "skills": [
+        "C",
+        "C++",
+        "C#",
+        "Java",
+        "JavaScript",
+        "Python",
+        "Problem-Solving",
+        "Communication",
+        "Collaboration"
+      ],
+      "datePosted": "August 12, 2024",
+      "apply_link": "https://jobs.careers.microsoft.com/global/en/job/1753930/Software-Engineer---Fullstack%2C-Multiple-Locations",
+      "salary": {
+        "currency": "USD $",
+        "amount": "81,900 - 160,200"
+      },
+      "requirements": [
+        "Bachelor’s Degree (or pursuing) in Computer Science or related technical discipline OR equivalent experience",
+        "Proven experience with languages like C, C++, C#, Java, JavaScript, or Python"
+      ],
+      "preferred_qualifications": [
+        "Advanced degrees or equivalent experience with 1+ year(s) in technical engineering"
+      ],
+      "responsibilities": [
+        "Break down work items and estimate tasks",
+        "Collaborate on feature requirements",
+        "Write maintainable and extensible code",
+        "Ensure quality through testing and debugging",
+        "Monitor system performance and ensure compliance"
+      ],
+      "benefits": [
+        "Industry-leading healthcare",
+        "Educational resources",
+        "Product discounts",
+        "Generous parental leave",
+        "Flexible time off",
+        "Inclusive culture",
+        "Networking opportunities"
+      ],
+      "description": "Are you ready to bring your passion, talent, and potential to Microsoft? As a Software Engineer, you'll develop innovative software and tools that impact millions. Embrace a growth mindset, collaborate with key stakeholders, and create scalable, secure, and high-quality code. This role offers opportunities to learn, grow, and contribute to a culture of excellence!",
+      "aboutus": "Microsoft’s mission is to empower every person and organization on the planet to achieve more. Respect, integrity, and accountability are at the core of everything we do."
+    },
+    {
+      "job_id": "2715949",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQHTvZwCx4p2Qg/company-logo_200_200/company-logo_200_200/0/1630640869849/amazon_logo?e=1732752000&v=beta&t=aLjXpoyXgSM-4WAnrA6y1Yjr7CUf-w1NAFplonx0dB0",
+      "title": "Business Intelligence Engineer, Advertising Finance",
+      "company": "Amazon.com Services LLC",
+      "location": "USA, NY, New York City; USA, WA, Seattle",
+      "job_type": "Full-time",
+      "skills": [
+        "Redshift",
+        "Oracle",
+        "NoSQL",
+        "SQL",
+        "Data Modeling",
+        "Data Warehousing",
+        "ETL Pipelines",
+        "Python",
+        "Statistical Analysis (R, SAS, Matlab)",
+        "Data Visualization (Tableau, Quicksight)",
+        "AWS (EC2, DynamoDB, S3, Redshift)"
+      ],
+      "datePosted": "August 28, 2024",
+      "apply_link": "https://www.amazon.jobs/en/jobs/2715949/business-intelligence-engineer-advertising-finance",
+      "salary": {
+        "currency": "USD $",
+        "amount": "89,600 - 185,000"
+      },
+      "requirements": [
+        "3+ years of analyzing and interpreting data with Redshift, Oracle, NoSQL etc.",
+        "Experience with data modeling, warehousing and building ETL pipelines",
+        "Experience writing complex SQL queries",
+        "Experience using SQL to pull data from a database or data warehouse and scripting experience (Python) to process data for modeling",
+        "Experience in Statistical Analysis packages such as R, SAS and Matlab",
+        "Experience with data visualization using Tableau, Quicksight, or similar tools",
+        "Knowledge of SQL and data warehousing concepts"
+      ],
+      "preferred_qualifications": [
+        "Experience with AWS solutions such as EC2, DynamoDB, S3, and Redshift",
+        "Experience in data mining, ETL, etc. and using databases in a business environment with large-scale, complex datasets",
+        "Experience in understanding and translating ambiguous and complex business problems into data solutions and presenting findings to the leadership"
+      ],
+      "responsibilities": [
+        "Design, develop, build, and maintain scalable data solutions, including infrastructure, pipeline, reporting, to support long-term business strategies",
+        "Simplify and re-invent current data solutions to support the business scope expansion",
+        "Explore and deep dive into new areas across various ad programs as well as business functions to support business decision making",
+        "Translate business problems into data questions, find solutions to solve those questions with resourcefulness",
+        "Present analytical findings and recommendations to business leadership",
+        "Work cross-functionally with other teams in various job families to gather data sources to provide a comprehensive view of the business",
+        "Recognize and adopt best practices in reporting/analysis: data integrity, test design, analysis, validation, and documentation"
+      ],
+      "benefits": [
+        "Equity, sign-on payments, and other forms of compensation",
+        "Full range of medical, financial, and other benefits"
+      ],
+      "description": "Amazon seeks a Business Intelligence Engineer with strong technical, analytical, and business intelligence skill sets and experience to be a key partner for Amazon’s Advertising business focusing on amazon.com across all ad programs. This role involves building business insights, analysis practices, and data infrastructure for APM Stores stakeholders, influencing business decisions, and supporting long-term business strategies.",
+      "aboutus": "Amazon is a total compensation company, committed to a diverse and inclusive workplace. Amazon provides opportunities for career growth and development, and this role offers exposure to a high-growth business with opportunities to use emerging technologies."
     }
   ]
 }
