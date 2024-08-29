@@ -732,6 +732,74 @@
       ],
       "description": "NVIDIA is hiring experienced DevOps engineers to help scale up its AI Infrastructure. We expect you to have significant experience with site reliability principles and techniques including reliability assessments, incident management processes, production system observability, monitoring and alerting, automated deployments and toil elimination. We view DevOps as a software engineering discipline and expect significant contributions to our codebase. We welcome out-of-the-box thinkers who can provide new ideas with strong execution bias. Expect to be constantly challenged, improving, and evolving for the better. You will help advance NVIDIA's capacity to build and deploy leading infrastructure solutions for a broad range of AI-based applications. If you're creative, passionate about SRE, and love having fun, please apply today!",
       "aboutus": "For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics. With the invention of the GPU - the engine of modern visual computing - the field has expanded to encompass video games, movie production, product design, medical diagnosis and scientific research. Today, we stand at the beginning of the next era, the AI computing era, ignited by a new computing model, GPU deep learning. NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hard-working people in the world working for us. Are you creative and autonomous? Do you love a challenge? If so, we want to hear from you."
+    },
+    {
+      "job_id": "R-1940394",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQE4Th_qgWovfg/company-logo_200_200/company-logo_200_200/0/1655487552700/walmart_logo?e=1732752000&v=beta&t=sT-NaVwkPm9D66oLtOzX1l8MvrOEBuq4uYOc3Das0A4",
+      "title": "Senior Software Engineer",
+      "company": "Walmart",
+      "location": "Bentonville, AR",
+      "job_type": "Full-time",
+      "skills": [
+        "Node JS/Express",
+        "ReactJS",
+        "JavaScript",
+        "SQL/MySQL/MSSQL",
+        "REST services",
+        "Azure",
+        "GCP",
+        "Git",
+        "Jenkins",
+        "Kubernetes",
+        "Kafka",
+        "NoSQL Databases",
+        "Cosmos DB",
+        "Graph DB",
+        "AI/ML"
+      ],
+      "datePosted": "August 27, 2024",
+      "apply_link": "https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal/job/XMLNAME--USA--Senior--Software-Engineer_R-1940394-1?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+      "salary": {
+        "currency": "USD $",
+        "amount": "90,000 - 180,000"
+      },
+      "requirements": [
+        "At least 5 years of experience in Software Engineering or related field.",
+        "Experience building customizable, reusable, accessible cross-platform and dynamic frontend components.",
+        "Experience building responsive, cross-browser compatible, and high-performance micro frontend web applications.",
+        "Hands-on experience in Cloud platforms (Azure, GCP), Git, Jenkins, Kubernetes.",
+        "Strong skills in messaging platforms like Kafka.",
+        "Experience working with NoSQL Databases like Cosmos DB and Graph DB.",
+        "Hands-on development skills to prototype technical solutions.",
+        "Demonstrated ownership for development and design of modules/features in a product.",
+        "Knowledge of open-source libraries, design patterns, and micro-service architecture."
+      ],
+      "preferred_qualifications": [
+        "Master’s degree in Computer Science, Computer Engineering, or related area.",
+        "Experience leveraging AI/ML to build custom models.",
+        "Experience in device telemetry and hardware integrations."
+      ],
+      "responsibilities": [
+        "Designing, developing, and maintaining software systems that provide telemetry and analytics for enterprise device and conference room technology environments.",
+        "Work with hardware teams to integrate various technologies and devices that provide telemetry data.",
+        "Develop algorithms and models to analyze telemetry data and generate predictive actions and insights.",
+        "Collaborate with UI/UX designers to create intuitive and user-friendly interfaces.",
+        "Perform rigorous testing and debugging of software to ensure reliability and performance.",
+        "Implement automated testing frameworks where applicable.",
+        "Create and maintain comprehensive documentation for software development designs, APIs, and user guides.",
+        "Work closely with product managers, hardware system engineers, and other stakeholders to define requirements and deliver solutions.",
+        "Continuously monitor and optimize the performance of telemetry systems to handle large volumes of data efficiently.",
+        "Ensure the software systems are secure and comply with data privacy regulations and best practices."
+      ],
+      "benefits": [
+        "Competitive pay with performance-based bonus awards.",
+        "401(k) match, stock purchase plan, paid maternity and parental leave, PTO, multiple health plans, and much more.",
+        "Paid time off benefits including PTO, parental leave, family care leave, bereavement, jury duty, and voting.",
+        "Short-term and long-term disability, company discounts, Military Leave Pay, adoption, and surrogacy expense reimbursement.",
+        "Walmart-paid education benefit program."
+      ],
+      "description": "We are seeking a highly skilled and experienced Senior Software Engineer to join our Global Technology Services and Solutions team in developing cutting-edge Enterprise telemetry solutions. In this role, you will lead the design, development, and maintenance of Conference Room Technology and Software systems that provide real-time data and analytics for optimizing enterprise device management and telemetry.",
+      "aboutus": "Imagine working in an environment where one line of code can make life easier for hundreds of millions of people. That’s what we do at Walmart Global Tech. We’re a team of software engineers, data scientists, cybersecurity experts, and service professionals within the world’s leading retailer who make an epic impact and are at the forefront of the next retail disruption."
     }
   ]
 }
