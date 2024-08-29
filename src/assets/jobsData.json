@@ -677,6 +677,61 @@
       ],
       "description": "Amazon seeks a Business Intelligence Engineer with strong technical, analytical, and business intelligence skill sets and experience to be a key partner for Amazon’s Advertising business focusing on amazon.com across all ad programs. This role involves building business insights, analysis practices, and data infrastructure for APM Stores stakeholders, influencing business decisions, and supporting long-term business strategies.",
       "aboutus": "Amazon is a total compensation company, committed to a diverse and inclusive workplace. Amazon provides opportunities for career growth and development, and this role offers exposure to a high-growth business with opportunities to use emerging technologies."
+    },
+    {
+      "job_id": "JR1985805",
+      "logo": "https://media.licdn.com/dms/image/v2/D560BAQH7YExLMK6L2Q/company-logo_200_200/company-logo_200_200/0/1724879902635/nvidia_logo?e=1732752000&v=beta&t=GX6dZ0J0vyVtIS_9IHZuSqIkssWVbDxCP_k_ze-LvIs",
+      "title": "Senior DevOps Engineer - DGX Cloud",
+      "company": "NVIDIA",
+      "location": "US, CA, Santa Clara; US, WA, Remote; US, CA, Remote",
+      "job_type": "Full-time",
+      "skills": [
+        "Site Reliability Engineering",
+        "Incident Management",
+        "Production System Observability",
+        "Monitoring and Alerting",
+        "Automated Deployments",
+        "Toil Elimination",
+        "Go",
+        "Python",
+        "Data Structures",
+        "Algorithms",
+        "Kubernetes",
+        "Slurm",
+        "Bright Cluster Manager"
+      ],
+      "datePosted": "August 29, 2024",
+      "apply_link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Senior-DevOps-Engineer---DGX-Cloud_JR1985805?locationHierarchy1=2fcb99c455831013ea52fb338f2932d8",
+      "salary": {
+        "currency": "USD $",
+        "amount": "148,000 - 276,000"
+      },
+      "requirements": [
+        "Direct experience in a DevOps/SRE role within a highly technical organization with demonstrable impact from your work.",
+        "Highly motivated with strong communication skills, you can work successfully with multi-functional teams, principles, and architects and coordinate effectively across organizational boundaries and geographies.",
+        "5+ years in similar role and experience on large-scale production systems.",
+        "Experience with the aforementioned DevOps/SRE principles, tools and techniques.",
+        "BS in Computer Science, Engineering, Physics, Mathematics or a comparable Degree or equivalent experience.",
+        "Technical knowledge, including a systems programming language (Go, Python) and a solid understanding of data structures and algorithms."
+      ],
+      "preferred_qualifications": [
+        "Technical competency in managing and automating large-scale distributed systems independent of cloud providers.",
+        "Advanced hands-on experience and deep understanding of cluster management systems (Kubernetes, Slurm, Bright Cluster Manager).",
+        "Proven operational excellence in maintaining reliable and performant AI infrastructure."
+      ],
+      "responsibilities": [
+        "You will be part of a DGX Cloud team responsible for production systems that enable large scalable GPU clusters to be used for a variety of AI workloads.",
+        "Implementing monitoring and health management capabilities that enable industry leading reliability, availability, and scalability of GPU assets.",
+        "Harnessing multiple data streams, ranging from GPU hardware diagnostics to cluster and network telemetry.",
+        "Working with teams across NVIDIA to ensure production AI clusters run reliability and consistently with maximum performance.",
+        "Evaluating system failures and improving services based on a well-defined incident management process."
+      ],
+      "benefits": [
+        "Equity, sign-on payments, and other forms of compensation.",
+        "Full range of medical, financial, and other benefits."
+      ],
+      "description": "NVIDIA is hiring experienced DevOps engineers to help scale up its AI Infrastructure. We expect you to have significant experience with site reliability principles and techniques including reliability assessments, incident management processes, production system observability, monitoring and alerting, automated deployments and toil elimination. We view DevOps as a software engineering discipline and expect significant contributions to our codebase. We welcome out-of-the-box thinkers who can provide new ideas with strong execution bias. Expect to be constantly challenged, improving, and evolving for the better. You will help advance NVIDIA's capacity to build and deploy leading infrastructure solutions for a broad range of AI-based applications. If you're creative, passionate about SRE, and love having fun, please apply today!",
+      "aboutus": "For two decades, NVIDIA has pioneered visual computing, the art and science of computer graphics. With the invention of the GPU - the engine of modern visual computing - the field has expanded to encompass video games, movie production, product design, medical diagnosis and scientific research. Today, we stand at the beginning of the next era, the AI computing era, ignited by a new computing model, GPU deep learning. NVIDIA is widely considered to be one of the technology world’s most desirable employers. We have some of the most forward-thinking and hard-working people in the world working for us. Are you creative and autonomous? Do you love a challenge? If so, we want to hear from you."
     }
   ]
 }
