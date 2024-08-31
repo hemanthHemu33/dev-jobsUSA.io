@@ -800,6 +800,60 @@
       ],
       "description": "We are seeking a highly skilled and experienced Senior Software Engineer to join our Global Technology Services and Solutions team in developing cutting-edge Enterprise telemetry solutions. In this role, you will lead the design, development, and maintenance of Conference Room Technology and Software systems that provide real-time data and analytics for optimizing enterprise device management and telemetry.",
       "aboutus": "Imagine working in an environment where one line of code can make life easier for hundreds of millions of people. That’s what we do at Walmart Global Tech. We’re a team of software engineers, data scientists, cybersecurity experts, and service professionals within the world’s leading retailer who make an epic impact and are at the forefront of the next retail disruption."
+    },
+    {
+      "job_id": "a-19403",
+      "logo": "https://s3-recruiting.cdn.greenhouse.io/external_greenhouse_job_boards/logos/400/283/100/original/1664297339291.jpeg?1688131412",
+      "title": "Analytics Engineer",
+      "company": "Hazel Health",
+      "location": "Remote or San Francisco, CA",
+      "job_type": "Full-time",
+      "skills": [
+        "Advanced SQL",
+        "dbt",
+        "Data Modeling (Kimball Methodology)",
+        "ELT Process Optimization",
+        "Data Quality Assurance",
+        "GitHub",
+        "Snowflake",
+        "Healthcare Analytics"
+      ],
+      "datePosted": "August 27, 2024",
+      "apply_link": "https://job-boards.greenhouse.io/hazel/jobs/6096982003",
+      "salary": {
+        "currency": "USD $",
+        "amount": "100,000 - 120,000"
+      },
+      "requirements": [
+        "2-5 years of experience in an analytics-focused role (analytics engineer, data engineer, analyst, or consultant).",
+        "Advanced SQL skills, including schema design, management, and migration.",
+        "Hands-on experience with dbt for building and maintaining models.",
+        "Familiarity with Snowflake-flavored SQL syntax and features.",
+        "Experience in data modeling using Kimball methodology.",
+        "Experience in improving data quality, security, and performance.",
+        "Hands-on experience using GitHub.",
+        "Preference for experience in healthcare operations and revenue cycle management analytics."
+      ],
+      "preferred_qualifications": [
+        "dbt Cloud Administrator Certification or dbt Analytics Engineering Certification."
+      ],
+      "responsibilities": [
+        "Design, build, and maintain data transformations using dbt for analytics.",
+        "Optimize the performance of ELT processes and automate analytic workflows.",
+        "Collaborate with cross-functional teams to define data requirements.",
+        "Support company-wide efforts to improve data quality, accessibility, and governance.",
+        "Implement data quality checks to ensure the accuracy, completeness, and reliability of data.",
+        "Contribute to the improvement of data team best practices and documentation.",
+        "Troubleshoot and communicate data issues to internal stakeholders.",
+        "Optimize the scalability of data infrastructure to support growing data volumes."
+      ],
+      "benefits": [
+        "Competitive pay with a base salary range of $100,000 to $120,000.",
+        "401(k) match, healthcare coverage, and paid time off.",
+        "Remote work flexibility and a broad range of other benefits and perks."
+      ],
+      "description": "Hazel Health is the nation's largest virtual provider of school-based healthcare services. As an Analytics Engineer, you'll play a key role in our data-driven growth strategy, working closely with cross-functional teams to design, implement, and maintain data models that improve decision-making.",
+      "aboutus": "Hazel Health transforms schools into accessible front doors for mental and physical healthcare, reaching over four million K-12 students. Join our innovative team to help remove barriers to the healthcare that children need to thrive."
     }
   ]
 }
