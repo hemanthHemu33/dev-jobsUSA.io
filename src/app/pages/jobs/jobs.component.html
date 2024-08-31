@@ -31,12 +31,13 @@
               <p class="companyLocationLeft">{{ item?.location }}</p>
             </div>
           </div>
-          <div class="col-3 p-0">
-            <button
-              class="applyBtnLeft"
-              (click)="applyClick(item); getById(item)"
-            >
+          <div class="col-3 p-0" (click)="getById(item)">
+            <button class="applyBtnLeft" (click)="applyClick(item)">
               Apply
+              <i
+                class="fa-solid fa-arrow-up-right-from-square"
+                style="padding-left: 5px"
+              ></i>
             </button>
           </div>
         </div>
@@ -69,6 +70,10 @@
             (click)="applyClick(rightColData)"
           >
             Apply
+            <i
+              class="fa-solid fa-arrow-up-right-from-square"
+              style="padding-left: 5px"
+            ></i>
           </button>
           <!-- <img
             class="shareIcon"
@@ -192,6 +197,10 @@
           (click)="applyClick(rightColData)"
         >
           Apply
+          <i
+            class="fa-solid fa-arrow-up-right-from-square"
+            style="padding-left: 5px"
+          ></i>
         </button>
       </div>
     </div>

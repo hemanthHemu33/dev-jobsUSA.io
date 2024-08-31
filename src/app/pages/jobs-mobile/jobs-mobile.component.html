@@ -1,7 +1,14 @@
 <section class="">
   <section class="headerBack">
-    <div class="Root_containerVariable">
-      <i class="fa-solid fa-arrow-left backArrow" (click)="back()"></i>
+    <div class="Root_containerVariable d-flex">
+      <i class="fa-solid fa-arrow-left backArrow pt-2" (click)="back()"></i>
+      <p class="p-3 m-0">{{ rightColData?.title }}</p>
+      <button
+        class="mobileHeaderApplyButton rootBlue"
+        (click)="applyClick(rightColData)"
+      >
+        Apply
+      </button>
     </div>
   </section>
   <mat-divider></mat-divider>
@@ -76,7 +83,6 @@
         </div>
       </div>
       <!-- **********ABOUT JOB IN DETAIL*********** -->
-
       <div class="jobDetailsContainer">
         <div class="mt-2">
           <h2 class="mb-2">About the job</h2>

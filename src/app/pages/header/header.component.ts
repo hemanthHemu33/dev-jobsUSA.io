@@ -29,29 +29,8 @@ export class HeaderComponent implements OnInit {
         }
       );
   }
-  // onBlur(e: any) {
-  //   const value = e.target.value;
-  //   console.log('Results after blur:', value);
-
-  //   if (value) {
-  //     this.sharedService.triggerFunctionCall(value).subscribe(
-  //       (results) => {
-  //         console.log('Results after blur:', results);
-  //       },
-  //       (error) => {
-  //         console.error('Error after blur:', error);
-  //       }
-  //     );
-  //   } else {
-  //     console.log('Input is empty, no search triggered');
-  //   }
-  // }
 
   redirectToInstagram() {
-    window.open('https://www.instagram.com/job_posters_usa/', '_blank');
+    window.open('https://www.instagram.com/jobpostersusa/', '_blank');
   }
-  // onSearchEnter(e: any) {
-  //   console.log('search', e.target.value);
-  //   this.sharedService.triggerFunctionCall(e);
-  // }
 }
