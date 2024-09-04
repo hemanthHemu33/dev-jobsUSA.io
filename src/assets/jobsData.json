@@ -854,6 +854,60 @@
       ],
       "description": "Hazel Health is the nation's largest virtual provider of school-based healthcare services. As an Analytics Engineer, you'll play a key role in our data-driven growth strategy, working closely with cross-functional teams to design, implement, and maintain data models that improve decision-making.",
       "aboutus": "Hazel Health transforms schools into accessible front doors for mental and physical healthcare, reaching over four million K-12 students. Join our innovative team to help remove barriers to the healthcare that children need to thrive."
+    },
+    {
+      "job_id": "2720319",
+      "logo": "https://media.licdn.com/dms/image/v2/C560BAQHTvZwCx4p2Qg/company-logo_200_200/company-logo_200_200/0/1630640869849/amazon_logo?e=1732752000&v=beta&t=aLjXpoyXgSM-4WAnrA6y1Yjr7CUf-w1NAFplonx0dB0",
+      "title": "Business Intelligence Engineer",
+      "company": "Amazon.com Services LLC",
+      "location": "USA, WA, Seattle or USA, CA, Cupertino",
+      "job_type": "Full-time",
+      "skills": [
+        "Redshift",
+        "Oracle",
+        "NoSQL",
+        "Tableau",
+        "Quicksight",
+        "ETL",
+        "Data Modeling",
+        "Statistical Analysis",
+        "AWS (EC2, DynamoDB, S3, Redshift)"
+      ],
+      "datePosted": "September 4, 2024",
+      "apply_link": "https://www.amazon.jobs/en/jobs/2720319/business-intelligence-engineer",
+      "salary": {
+        "currency": "USD $",
+        "amount": "74,100 - 165,600"
+      },
+      "requirements": [
+        "3+ years of experience analyzing and interpreting data with Redshift, Oracle, NoSQL.",
+        "Experience with data visualization using Tableau, Quicksight, or similar tools.",
+        "Experience with building and maintaining basic data artifacts (e.g. ETL, data models, queries).",
+        "Experience applying basic statistical methods (e.g. regression) to complex business problems.",
+        "Knowledge of how to improve code quality and optimize BI processes (e.g. speed, cost, reliability).",
+        "Experience with statistical analysis, correlation analysis."
+      ],
+      "preferred_qualifications": [
+        "Experience with scripting languages (e.g., Python, Java, or R).",
+        "Experience gathering business requirements, using industry-standard BI tools to extract data, formulate metrics, and build reports.",
+        "Experience with AWS solutions such as EC2, DynamoDB, S3, and Redshift."
+      ],
+      "responsibilities": [
+        "Work closely with Product Managers, Scientists, Engineers, and Data Engineers to develop BI/analytics solutions to measure performance of new and existing solutions.",
+        "Build and analyze key metrics to uncover trends and root causes of issues.",
+        "Own the design, development, and maintenance of data pipelines, metrics, reports, visualizations, analyses, and dashboards.",
+        "Develop a mechanism to measure the performance of complex projects, including a unified generative AI solution to enhance customer experience.",
+        "Collaborate with stakeholders to optimize and adopt applications within the AWS ecosystem.",
+        "Migrate dashboards to new visualization tools, conduct thorough testing, deploy new tools, and train users."
+      ],
+      "benefits": [
+        "Medical, Dental, and Vision Coverage.",
+        "Maternity and Parental Leave Options.",
+        "Paid Time Off (PTO).",
+        "401(k) Plan."
+      ],
+      "description": "Join Amazon's Customer Service Technology team and impact millions globally. As a BI Engineer, you'll maintain and analyze large datasets, collaborate with stakeholders, and build data models to drive business decisions. Your expertise will provide actionable insights for strategic decisions.",
+      "aboutus": "Amazon is committed to revolutionizing customer service and technical support for all its devices and digital properties. Be part of a team that is driving innovation through data-driven insights and cutting-edge analytics."
     }
   ]
 }
