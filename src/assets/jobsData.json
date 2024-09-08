@@ -908,6 +908,61 @@
       ],
       "description": "Join Amazon's Customer Service Technology team and impact millions globally. As a BI Engineer, you'll maintain and analyze large datasets, collaborate with stakeholders, and build data models to drive business decisions. Your expertise will provide actionable insights for strategic decisions.",
       "aboutus": "Amazon is committed to revolutionizing customer service and technical support for all its devices and digital properties. Be part of a team that is driving innovation through data-driven insights and cutting-edge analytics."
+    },
+    {
+      "job_id": "JD-2366",
+      "logo": "https://media.licdn.com/dms/image/v2/D560BAQHziqW0GDopnw/company-logo_200_200/company-logo_200_200/0/1723437227726/amazech_solutions_logo?e=1733961600&v=beta&t=73ua2dWoEFi-R_RuCfvbQtd9TzJRSjsQMjvbPudpigQ",
+      "title": "Lead Power BI Developer",
+      "company": "Amazech Solutions",
+      "location": "USA, TX, Dallas",
+      "job_type": "Full-time",
+      "skills": [
+        "Power BI",
+        "SQL",
+        "DQL",
+        "DML",
+        "DDL",
+        "SQL Server",
+        "Azure Data Factory",
+        "Azure Services",
+        "Azure DevOps",
+        "Azure Bicep",
+        "C#",
+        "DAX",
+        "Power Query"
+      ],
+      "datePosted": "September 5, 2024",
+      "apply_link": "https://web.mayamaya.us/job?jobId=JD-2366&share_from=console",
+      "salary": {
+        "currency": "USD",
+        "amount": null
+      },
+      "requirements": [
+        "Extensive experience in developing interactive reports and dashboards using Power BI.",
+        "Strong ability to translate complex data sets into intuitive visualizations.",
+        "Proficient in writing SQL queries (DQL, DML, DDL) for data retrieval, manipulation, and definition.",
+        "Experience with SQL Server and Azure services related to data processing and storage.",
+        "Familiarity with Azure DevOps and Azure Bicep is advantageous.",
+        "Knowledge of programming languages such as C# is beneficial."
+      ],
+      "preferred_qualifications": [
+        "Strong communication skills to work with cross-functional teams."
+      ],
+      "responsibilities": [
+        "Design, develop, and maintain Power BI dashboards and reports that provide actionable insights.",
+        "Connect Power BI to various data sources and design data models to facilitate complex data analysis.",
+        "Use DAX and Power Query to perform advanced data analysis.",
+        "Collaborate with stakeholders to understand requirements and deliver comprehensive BI solutions.",
+        "Train and assist business users in using Power BI tools.",
+        "Ensure data accuracy and integrity by implementing quality control measures."
+      ],
+      "benefits": [
+        "Medical, Dental, and Vision Coverage",
+        "401(k) Plan",
+        "Paid Time Off (PTO)"
+      ],
+      "description": "We are looking for a skilled Power BI Developer to join Amazech Solutions in Dallas, TX. You will design and maintain dashboards, work with stakeholders, and drive business insights using Power BI and related technologies.",
+      "aboutus": "Amazech Solutions is committed to providing innovative technology solutions for businesses worldwide. Join our team and make an impact by driving business intelligence and data analytics."
     }
   ]
 }
