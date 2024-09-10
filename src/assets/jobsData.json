@@ -963,6 +963,75 @@
       ],
       "description": "We are looking for a skilled Power BI Developer to join Amazech Solutions in Dallas, TX. You will design and maintain dashboards, work with stakeholders, and drive business insights using Power BI and related technologies.",
       "aboutus": "Amazech Solutions is committed to providing innovative technology solutions for businesses worldwide. Join our team and make an impact by driving business intelligence and data analytics."
+    },
+    {
+      "job_id": "210545414",
+      "logo": "https://www.jpmorgan.com/content/dam/logos-global/logo-jpm-brown.svg",
+      "title": "Applied AI/ML Lead",
+      "company": "JPMorgan Chase & Co.",
+      "location": ["USA, IL, Chicago", "USA, NJ, Jersey City"],
+      "job_type": "Full-time",
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing (NLP)",
+        "Python",
+        "Java",
+        "C/C++",
+        "Transformers",
+        "Hugging Face",
+        "TensorFlow",
+        "PyTorch",
+        "NumPy",
+        "Scikit-Learn",
+        "Pandas",
+        "AWS (Sagemaker, EC2, Glue)"
+      ],
+      "datePosted": "September 3, 2024",
+      "apply_link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210545414/?utm_medium=jobshare",
+
+      "salary": {
+        "currency": "USD",
+        "amount": "$ 164,350 - 260,000"
+      },
+
+      "requirements": [
+        "BS, MS, or PhD in Computer Science, Data Science, Statistics, Mathematics, or Machine Learning.",
+        "At least 5 years' experience in programming languages like Python, Java, C/C++.",
+        "5+ years' experience in applying ML techniques to solve business problems.",
+        "Experience with LLMs and Prompt Engineering.",
+        "Strong background in NLP, Generative AI, and hands-on experience with ML and DL methods.",
+        "Experience with ML/DL toolkits such as Transformers, Hugging Face, TensorFlow, PyTorch, NumPy, Scikit-Learn, and Pandas.",
+        "Experience with Big Data and scalable model training.",
+        "Experience with AWS (Sagemaker, EC2, Glue)."
+      ],
+      "preferred_qualifications": [
+        "Published research in Machine Learning, Deep Learning, or Reinforcement Learning.",
+        "Experience with A/B experimentation and metric-driven product development.",
+        "Familiarity with continuous integration models and unit test development."
+      ],
+      "responsibilities": [
+        "Lead programs to implement large AI/ML initiatives.",
+        "Assist product leadership in defining problem statements and execution roadmap.",
+        "Develop state-of-the-art ML models for tasks such as NLP, personalization, and recommendation systems.",
+        "Collaborate with multiple teams to deliver AI solutions.",
+        "Develop end-to-end ML/AutoML/AutoNLP pipelines for tasks like Document Q&A, Search, Information Retrieval, and classification.",
+        "Build batch and real-time prediction pipelines with existing applications.",
+        "Explain complex AI concepts to senior stakeholders.",
+        "Collaborate with cross-functional teams including Business, Technology, Product Management, Legal, and Compliance."
+      ],
+      "benefits": [
+        "Comprehensive Health Care Coverage",
+        "401(k) Plan",
+        "Paid Time Off (PTO)",
+        "On-site Health and Wellness Centers",
+        "Tuition Reimbursement",
+        "Mental Health Support",
+        "Backup Childcare",
+        "Financial Coaching"
+      ],
+      "description": "Join JPMorgan Chase & Co. as an Applied AI/ML Lead in our Commercial Bank Technology team. You'll analyze business problems, experiment with state-of-the-art models, and develop ML and DL solutions to drive business impact. This is an exciting opportunity to work with an innovative team and contribute to the growth of AI-driven solutions within a large, complex organization.",
+      "aboutus": "JPMorgan Chase & Co. is a leader in investment banking, consumer and small business banking, and asset management. Our diverse team is committed to providing innovative financial solutions to clients worldwide. Join us and make an impact!"
     }
   ]
 }
