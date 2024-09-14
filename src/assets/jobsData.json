@@ -1032,6 +1032,62 @@
       ],
       "description": "Join JPMorgan Chase & Co. as an Applied AI/ML Lead in our Commercial Bank Technology team. You'll analyze business problems, experiment with state-of-the-art models, and develop ML and DL solutions to drive business impact. This is an exciting opportunity to work with an innovative team and contribute to the growth of AI-driven solutions within a large, complex organization.",
       "aboutus": "JPMorgan Chase & Co. is a leader in investment banking, consumer and small business banking, and asset management. Our diverse team is committed to providing innovative financial solutions to clients worldwide. Join us and make an impact!"
+    },
+    {
+      "job_id": "210545415",
+      "logo": "https://app.ashbyhq.com/api/images/org-theme-wordmark/cae55ddb-7b60-46a9-bc2e-125400d6514c/cb4ff559-59d4-4caa-9d32-de415b3d9bad.png",
+      "title": "Data Scientist",
+      "company": "Tandem",
+      "location": ["USA, NY, New York"],
+      "job_type": "Full-time",
+      "skills": [
+        "Data Analysis",
+        "Machine Learning",
+        "AI",
+        "SQL",
+        "Python",
+        "Market Data",
+        "Predictive Modeling",
+        "Operations Workstream",
+        "Client Engagement",
+        "Growth Strategy",
+        "Business Metrics",
+        "Strategic Decision Making"
+      ],
+      "datePosted": "September 14, 2024",
+      "apply_link": "https://jobs.ashbyhq.com/tandem/1ae72b76-5611-4423-a2ea-e11933cea33f",
+      "salary": {
+        "currency": "USD",
+        "amount": "$120,000 - $200,000"
+      },
+      "requirements": [
+        "BS, MS in a quantitative field or 2+ years of analytics-heavy role.",
+        "Strong technical skills in SQL, Python, and data analysis.",
+        "Ability to jump between high-level thinking and granular problem-solving.",
+        "Strong written and verbal communication.",
+        "Proven ability to meet goals quickly and effectively."
+      ],
+      "preferred_qualifications": [
+        "Experience in analytics-driven business roles.",
+        "Background in machine learning or AI techniques.",
+        "Proficiency in prototyping and modeling AI problems."
+      ],
+      "responsibilities": [
+        "Drive strategic data projects from analysis to execution.",
+        "Predict operational bottlenecks and workflow automations.",
+        "Develop advanced modeling approaches in collaboration with engineers.",
+        "Engage with Fortune 100 clients for insights and performance.",
+        "Define core data sources and empower team with real-time business metrics."
+      ],
+      "benefits": [
+        "Fully covered medical, vision, dental insurance",
+        "401(k) Plan, FSA, commuter benefits",
+        "Unlimited PTO and 16 weeks of parental leave",
+        "Daily lunch and dinner at the office",
+        "One Medical, Talkspace, Teladoc, and Kindbody memberships"
+      ],
+      "description": "Join Tandem as a Data Scientist in New York! Lead strategic data projects, engage with cross-functional teams, and develop advanced AI models to solve complex business problems. Work closely with leadership to impact company growth while leveraging cutting-edge AI techniques.",
+      "aboutus": "Tandem is revolutionizing how new therapies reach the market. We are a fast-growing, AI-first company supported by top-tier investors. Join our high-trust, high-autonomy team in SoHo to drive both company and career growth."
     }
   ]
 }
