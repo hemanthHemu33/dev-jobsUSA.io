@@ -1088,6 +1088,124 @@
       ],
       "description": "Join Tandem as a Data Scientist in New York! Lead strategic data projects, engage with cross-functional teams, and develop advanced AI models to solve complex business problems. Work closely with leadership to impact company growth while leveraging cutting-edge AI techniques.",
       "aboutus": "Tandem is revolutionizing how new therapies reach the market. We are a fast-growing, AI-first company supported by top-tier investors. Join our high-trust, high-autonomy team in SoHo to drive both company and career growth."
+    },
+    {
+      "job_id": "210553665765758",
+      "logo": "https://www.jpmorgan.com/content/dam/logos-global/logo-jpm-brown.svg",
+
+      "title": "Quant Analytics Vice President – Digital Marketing Analytics",
+      "company": "Chase",
+      "location": [
+        "1111 Polaris Pkwy, Columbus, OH, 43240, US",
+        "201 N Walnut St, Wilmington, DE, 19801, US",
+        "8181 Communications Pkwy Ste C, Plano, TX, 75024, US"
+      ],
+      "job_type": "Full-time",
+      "skills": [
+        "Data Analysis",
+        "Business Intelligence",
+        "Data Visualization",
+        "Adobe Analytics",
+        "Tableau",
+        "Alteryx",
+        "SQL",
+        "KPI Measurement",
+        "Storytelling",
+        "Digital Strategy",
+        "Hadoop Hive",
+        "Teradata"
+      ],
+      "datePosted": "September 9, 2024",
+      "apply_link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210553658/?utm_medium=jobshare",
+      "salary": {
+        "currency": "USD $",
+        "amount": "164,350 - 260,000"
+      },
+      "requirements": [
+        "6+ years relevant experience analyzing customer experiences",
+        "Hands-on experience with behavioral and transactional analytics tools and techniques",
+        "Experience working with Business Intelligence (BI) platforms",
+        "Ability to define business KPIs and measurement frameworks",
+        "Strong communication skills for executives, business partners, and technical teams",
+        "Ability to work in a start-up paced environment"
+      ],
+      "preferred_qualifications": [
+        "Experience in digital analytics",
+        "Post MBA Strategy and/or Management Consulting experience",
+        "Experience with Hadoop Hive, Teradata",
+        "Proficiency in Adobe Analytics, Tableau, Alteryx, and SQL"
+      ],
+      "responsibilities": [
+        "Collaborate with partners across Digital functions and LOBs",
+        "Provide consultative support for Digital Product partners",
+        "Evolve and refine measurement frameworks and KPIs",
+        "Provide data analysis, visualization, and storytelling",
+        "Focus and prioritize analytics agenda to align with strategy",
+        "Collaborate with Data Services and Core Analytics partners"
+      ],
+      "benefits": [
+        "Comprehensive health care coverage",
+        "On-site health and wellness centers",
+        "Retirement savings plan",
+        "Backup childcare",
+        "Tuition reimbursement",
+        "Mental health support",
+        "Financial coaching"
+      ],
+      "description": "Join Chase as a Quant Analytics Vice President in Digital Marketing Analytics! Lead the digital analytics agenda to improve customer experience on web and mobile platforms, while working cross-functionally with partners across the Consumer Bank. Leverage data visualization and storytelling skills to provide actionable Business Intelligence.",
+      "aboutus": "Chase is a leading financial services firm serving millions of households and businesses. Our mission is to create engaged, lifelong relationships and put customers at the heart of everything we do. We offer a range of financial products and digital solutions with a focus on customer satisfaction and growth."
+    },
+    {
+      "job_id": "10038764",
+      "logo": "https://bloomberg.avature.net/portal/4/images/logoFooter.png",
+      "title": "Technical Product Manager, Large Language Model Platforms - CTO Office",
+      "company": "Bloomberg",
+      "location": ["USA, NY, New York"],
+      "job_type": "Full-time",
+      "skills": [
+        "Technical Product Management",
+        "Generative AI",
+        "Deep Learning",
+        "Agile Methodology",
+        "Business Strategy",
+        "Roadmapping",
+        "Stakeholder Management",
+        "AI Platform Development"
+      ],
+      "datePosted": "September 17, 2024",
+      "apply_link": "https://bloomberg.avature.net/careers/JobDetail/Technical-Product-Manager-LLM-Platforms/6917#",
+      "salary": {
+        "currency": "USD $",
+        "amount": "140,000 - 295,000"
+      },
+      "requirements": [
+        "5+ years of experience with technical product management or technical leadership.",
+        "5+ years of experience with deep learning or 3+ years product managing generative AI products or platforms.",
+        "Engagement with the research or open source community around generative AI.",
+        "Organizational and communication skills to effectively coordinate with engineers, other product managers, and senior management.",
+        "Advanced degree (Masters or Ph.D) or equivalent experience in a computing discipline with a specialization in deep learning or ML systems."
+      ],
+      "preferred_qualifications": [
+        "A good understanding of financial markets, instruments, and products.",
+        "Open source involvement or community presence.",
+        "Exposure to Bloomberg Terminal and/or enterprise data products."
+      ],
+      "responsibilities": [
+        "Develop a long-term vision and roadmap for Bloomberg's next-generation large language model platform and services.",
+        "Translate product roadmap features and requirements into testable user stories and acceptance criteria.",
+        "Interact with end users and partners to understand their workflows and technical requirements.",
+        "Collaborate with stakeholders to align technical vision with business requirements.",
+        "Work in an Agile environment, continuously reviewing business needs, refining priorities, and identifying risks."
+      ],
+      "benefits": [
+        "Medical, dental, vision insurance",
+        "401(k) + match",
+        "Paid holidays and time off",
+        "Short and long term disability benefits",
+        "Life insurance and wellness programs"
+      ],
+      "description": "Bloomberg is looking for a Technical Product Manager to shape and execute the vision for its next-generation Generative AI platform. You will be responsible for developing infrastructure, expanding AI services, and collaborating closely with internal stakeholders from product and engineering.",
+      "aboutus": "Bloomberg’s CTO Office is a future-looking technical and product arm of Bloomberg L.P., focusing on designing and prototyping next-gen infrastructure, AI-powered products, and applications for the Bloomberg Terminal."
     }
   ]
 }
